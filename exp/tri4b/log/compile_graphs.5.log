@@ -1,0 +1,29 @@
+# compile-train-graphs --read-disambig-syms=data/lang_test/phones/disambig.int --batch-size=750 exp-kaldi-lang/tri4b/tree exp-kaldi-lang/tri4b/1.mdl data/lang_test/L.fst "ark:sym2int.pl --map-oov 4 -f 2- data/lang_test/words.txt < data/train/split12/5/text |" "ark:|gzip -c >exp-kaldi-lang/tri4b/fsts.5.gz" 
+# Started at Thu Jul 27 15:35:35 BST 2017
+#
+compile-train-graphs --read-disambig-syms=data/lang_test/phones/disambig.int --batch-size=750 exp-kaldi-lang/tri4b/tree exp-kaldi-lang/tri4b/1.mdl data/lang_test/L.fst 'ark:sym2int.pl --map-oov 4 -f 2- data/lang_test/words.txt < data/train/split12/5/text |' 'ark:|gzip -c >exp-kaldi-lang/tri4b/fsts.5.gz' 
+sym2int.pl: replacing *GRAUER* with 4
+sym2int.pl: replacing *ILLINOIS* with 4
+sym2int.pl: replacing *NIEHAUS* with 4
+sym2int.pl: replacing *GAUGE* with 4
+sym2int.pl: replacing *OHIO* with 4
+sym2int.pl: replacing *WEINBERGER* with 4
+sym2int.pl: replacing *GYOHTEN* with 4
+sym2int.pl: replacing *DEREGULATION* with 4
+sym2int.pl: replacing *REGULATORY* with 4
+sym2int.pl: replacing *YPSILANTI* with 4
+sym2int.pl: replacing *YPSILANTI* with 4
+sym2int.pl: replacing *YPSILANTI* with 4
+sym2int.pl: replacing *ORIENTED* with 4
+sym2int.pl: replacing *ORIENTED* with 4
+sym2int.pl: replacing *PHYSICIANS* with 4
+sym2int.pl: replacing *DREXEL* with 4
+sym2int.pl: replacing *PRESIDENCY* with 4
+sym2int.pl: replacing *DEMERS* with 4
+sym2int.pl: replacing *CITES* with 4
+sym2int.pl: replacing *GOLDWYN* with 4
+sym2int.pl: not warning for OOVs any more times
+** Replaced 51 instances of OOVs with 4
+LOG (compile-train-graphs:main():compile-train-graphs.cc:145) compile-train-graphs: succeeded for 862 graphs, failed for 0
+# Accounting: time=17 threads=1
+# Ended (code 0) at Thu Jul 27 15:35:52 BST 2017, elapsed time 17 seconds

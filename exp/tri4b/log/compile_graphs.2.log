@@ -1,0 +1,29 @@
+# compile-train-graphs --read-disambig-syms=data/lang_test/phones/disambig.int --batch-size=750 exp-kaldi-lang/tri4b/tree exp-kaldi-lang/tri4b/1.mdl data/lang_test/L.fst "ark:sym2int.pl --map-oov 4 -f 2- data/lang_test/words.txt < data/train/split12/2/text |" "ark:|gzip -c >exp-kaldi-lang/tri4b/fsts.2.gz" 
+# Started at Thu Jul 27 15:35:35 BST 2017
+#
+compile-train-graphs --read-disambig-syms=data/lang_test/phones/disambig.int --batch-size=750 exp-kaldi-lang/tri4b/tree exp-kaldi-lang/tri4b/1.mdl data/lang_test/L.fst 'ark:sym2int.pl --map-oov 4 -f 2- data/lang_test/words.txt < data/train/split12/2/text |' 'ark:|gzip -c >exp-kaldi-lang/tri4b/fsts.2.gz' 
+sym2int.pl: replacing EVIDEN(CE)- with 4
+sym2int.pl: replacing DOLLAR(S)- with 4
+sym2int.pl: replacing QUART(ER)- with 4
+sym2int.pl: replacing SLUMP(ED)- with 4
+sym2int.pl: replacing TA(X)- with 4
+sym2int.pl: replacing FLA(T)- with 4
+sym2int.pl: replacing *DONIGER* with 4
+sym2int.pl: replacing VAL(UE)- with 4
+sym2int.pl: replacing CA(SE)- with 4
+sym2int.pl: replacing *XOMA* with 4
+sym2int.pl: replacing *XOMA'S* with 4
+sym2int.pl: replacing *CIUDAD* with 4
+sym2int.pl: replacing PROVI(DE)- with 4
+sym2int.pl: replacing VIOLATION(S)- with 4
+sym2int.pl: replacing BUY(S)- with 4
+sym2int.pl: replacing TRADIN(G)- with 4
+sym2int.pl: replacing STATEMEN(T)- with 4
+sym2int.pl: replacing BAN(K)- with 4
+sym2int.pl: replacing *PROTECTIONISM* with 4
+sym2int.pl: replacing INDUSTR(Y)- with 4
+sym2int.pl: not warning for OOVs any more times
+** Replaced 27 instances of OOVs with 4
+LOG (compile-train-graphs:main():compile-train-graphs.cc:145) compile-train-graphs: succeeded for 862 graphs, failed for 0
+# Accounting: time=17 threads=1
+# Ended (code 0) at Thu Jul 27 15:35:52 BST 2017, elapsed time 17 seconds

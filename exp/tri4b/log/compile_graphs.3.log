@@ -1,0 +1,25 @@
+# compile-train-graphs --read-disambig-syms=data/lang_test/phones/disambig.int --batch-size=750 exp-kaldi-lang/tri4b/tree exp-kaldi-lang/tri4b/1.mdl data/lang_test/L.fst "ark:sym2int.pl --map-oov 4 -f 2- data/lang_test/words.txt < data/train/split12/3/text |" "ark:|gzip -c >exp-kaldi-lang/tri4b/fsts.3.gz" 
+# Started at Thu Jul 27 15:35:35 BST 2017
+#
+compile-train-graphs --read-disambig-syms=data/lang_test/phones/disambig.int --batch-size=750 exp-kaldi-lang/tri4b/tree exp-kaldi-lang/tri4b/1.mdl data/lang_test/L.fst 'ark:sym2int.pl --map-oov 4 -f 2- data/lang_test/words.txt < data/train/split12/3/text |' 'ark:|gzip -c >exp-kaldi-lang/tri4b/fsts.3.gz' 
+sym2int.pl: replacing RESULT(S)- with 4
+sym2int.pl: replacing ELEVE(N)- with 4
+sym2int.pl: replacing CONFISCATE(D)- with 4
+sym2int.pl: replacing RESUL(T)- with 4
+sym2int.pl: replacing -(LI)PS with 4
+sym2int.pl: replacing *REGULATORY* with 4
+sym2int.pl: replacing *TESTAMENT* with 4
+sym2int.pl: replacing *ELIMINATED* with 4
+sym2int.pl: replacing *REMEMBERS* with 4
+sym2int.pl: replacing *PRESTIGIOUS* with 4
+sym2int.pl: replacing *SHAPIRO* with 4
+sym2int.pl: replacing *RELATIONS* with 4
+sym2int.pl: replacing *WESTINGHOUSE* with 4
+sym2int.pl: replacing *SAFEGUARD* with 4
+sym2int.pl: replacing *CHARITABLE* with 4
+sym2int.pl: replacing *SCHEDULED* with 4
+sym2int.pl: replacing *PARTICULAR* with 4
+** Replaced 17 instances of OOVs with 4
+LOG (compile-train-graphs:main():compile-train-graphs.cc:145) compile-train-graphs: succeeded for 859 graphs, failed for 0
+# Accounting: time=17 threads=1
+# Ended (code 0) at Thu Jul 27 15:35:52 BST 2017, elapsed time 17 seconds

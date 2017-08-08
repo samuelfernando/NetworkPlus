@@ -1,0 +1,4 @@
+compute-wer --text --mode=present ark:exp-kaldi-lang/tri4b/decode/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 10.56 [ 2085 / 19743, 604 ins, 185 del, 1296 sub ]
+%SER 58.84 [ 729 / 1239 ]
+Scored 1239 sentences, 0 not present in hyp.

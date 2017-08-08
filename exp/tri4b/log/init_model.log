@@ -1,0 +1,3 @@
+gmm-init-model --write-occs=exp-kaldi-lang/tri4b/1.occs exp-kaldi-lang/tri4b/tree exp-kaldi-lang/tri4b/treeacc data/lang_test/topo exp-kaldi-lang/tri4b/tmp.mdl exp-kaldi-lang/tri3b_ali/tree exp-kaldi-lang/tri3b_ali/final.mdl 
+LOG (gmm-init-model:main():gmm-init-model.cc:271) Number of separate statistics is 112943
+LOG (gmm-init-model:main():gmm-init-model.cc:306) Wrote model.

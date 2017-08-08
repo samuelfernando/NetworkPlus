@@ -1,0 +1,20 @@
+# compile-train-graphs --read-disambig-syms=data/lang_test/phones/disambig.int --batch-size=750 exp-kaldi-lang/tri4b/tree exp-kaldi-lang/tri4b/1.mdl data/lang_test/L.fst "ark:sym2int.pl --map-oov 4 -f 2- data/lang_test/words.txt < data/train/split12/4/text |" "ark:|gzip -c >exp-kaldi-lang/tri4b/fsts.4.gz" 
+# Started at Thu Jul 27 15:35:35 BST 2017
+#
+compile-train-graphs --read-disambig-syms=data/lang_test/phones/disambig.int --batch-size=750 exp-kaldi-lang/tri4b/tree exp-kaldi-lang/tri4b/1.mdl data/lang_test/L.fst 'ark:sym2int.pl --map-oov 4 -f 2- data/lang_test/words.txt < data/train/split12/4/text |' 'ark:|gzip -c >exp-kaldi-lang/tri4b/fsts.4.gz' 
+sym2int.pl: replacing -(WH)AT with 4
+sym2int.pl: replacing *GAUGE* with 4
+sym2int.pl: replacing THEO(RY)- with 4
+sym2int.pl: replacing *ILLINOIS* with 4
+sym2int.pl: replacing *IACOCCA* with 4
+sym2int.pl: replacing *PROPOSAL* with 4
+sym2int.pl: replacing *SHAPIRO* with 4
+sym2int.pl: replacing *SENTELLE* with 4
+sym2int.pl: replacing *ADVOCATES* with 4
+sym2int.pl: replacing *VALUE* with 4
+sym2int.pl: replacing SHO(CK)- with 4
+sym2int.pl: replacing SUI(T)- with 4
+** Replaced 12 instances of OOVs with 4
+LOG (compile-train-graphs:main():compile-train-graphs.cc:145) compile-train-graphs: succeeded for 867 graphs, failed for 0
+# Accounting: time=16 threads=1
+# Ended (code 0) at Thu Jul 27 15:35:51 BST 2017, elapsed time 16 seconds

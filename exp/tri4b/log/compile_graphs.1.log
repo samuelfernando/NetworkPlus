@@ -1,0 +1,29 @@
+# compile-train-graphs --read-disambig-syms=data/lang_test/phones/disambig.int --batch-size=750 exp-kaldi-lang/tri4b/tree exp-kaldi-lang/tri4b/1.mdl data/lang_test/L.fst "ark:sym2int.pl --map-oov 4 -f 2- data/lang_test/words.txt < data/train/split12/1/text |" "ark:|gzip -c >exp-kaldi-lang/tri4b/fsts.1.gz" 
+# Started at Thu Jul 27 15:35:35 BST 2017
+#
+compile-train-graphs --read-disambig-syms=data/lang_test/phones/disambig.int --batch-size=750 exp-kaldi-lang/tri4b/tree exp-kaldi-lang/tri4b/1.mdl data/lang_test/L.fst 'ark:sym2int.pl --map-oov 4 -f 2- data/lang_test/words.txt < data/train/split12/1/text |' 'ark:|gzip -c >exp-kaldi-lang/tri4b/fsts.1.gz' 
+sym2int.pl: replacing HOWEVE(R)- with 4
+sym2int.pl: replacing GATES('S)- with 4
+sym2int.pl: replacing EA(CH)- with 4
+sym2int.pl: replacing UNDERWRI(TER)- with 4
+sym2int.pl: replacing *NO* with 4
+sym2int.pl: replacing *JURISDICTION* with 4
+sym2int.pl: replacing *MR.* with 4
+sym2int.pl: replacing ADVERSARIA(L)- with 4
+sym2int.pl: replacing SUGGE(ST)- with 4
+sym2int.pl: replacing *SUMITOMO* with 4
+sym2int.pl: replacing -(THI)S with 4
+sym2int.pl: replacing *BOUGHT* with 4
+sym2int.pl: replacing *EXACERBATING* with 4
+sym2int.pl: replacing HEA(D)- with 4
+sym2int.pl: replacing *SCHLESWIG* with 4
+sym2int.pl: replacing *SCIENTIFIC* with 4
+sym2int.pl: replacing CONGRES(S)- with 4
+sym2int.pl: replacing -(TH)AT with 4
+sym2int.pl: replacing *CONSIDER* with 4
+sym2int.pl: replacing *D'ESTAING* with 4
+sym2int.pl: not warning for OOVs any more times
+** Replaced 22 instances of OOVs with 4
+LOG (compile-train-graphs:main():compile-train-graphs.cc:145) compile-train-graphs: succeeded for 806 graphs, failed for 0
+# Accounting: time=16 threads=1
+# Ended (code 0) at Thu Jul 27 15:35:51 BST 2017, elapsed time 16 seconds

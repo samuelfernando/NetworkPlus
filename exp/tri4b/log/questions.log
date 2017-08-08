@@ -1,0 +1,2 @@
+cluster-phones exp-kaldi-lang/tri4b/treeacc data/lang_test/phones/sets.int exp-kaldi-lang/tri4b/questions.int 
+LOG (cluster-phones:main():cluster-phones.cc:129) Wrote questions to exp-kaldi-lang/tri4b/questions.int

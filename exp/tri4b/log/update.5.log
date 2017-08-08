@@ -1,0 +1,21 @@
+# gmm-est --write-occs=exp-kaldi-lang/tri4b/6.occs --mix-up=25332 exp-kaldi-lang/tri4b/5.mdl "gmm-sum-accs - exp-kaldi-lang/tri4b/5.*.acc |" exp-kaldi-lang/tri4b/6.mdl 
+# Started at Thu Jul 27 15:36:16 BST 2017
+#
+gmm-est --write-occs=exp-kaldi-lang/tri4b/6.occs --mix-up=25332 exp-kaldi-lang/tri4b/5.mdl 'gmm-sum-accs - exp-kaldi-lang/tri4b/5.*.acc |' exp-kaldi-lang/tri4b/6.mdl 
+gmm-sum-accs - exp-kaldi-lang/tri4b/5.1.acc exp-kaldi-lang/tri4b/5.10.acc exp-kaldi-lang/tri4b/5.11.acc exp-kaldi-lang/tri4b/5.12.acc exp-kaldi-lang/tri4b/5.2.acc exp-kaldi-lang/tri4b/5.3.acc exp-kaldi-lang/tri4b/5.4.acc exp-kaldi-lang/tri4b/5.5.acc exp-kaldi-lang/tri4b/5.6.acc exp-kaldi-lang/tri4b/5.7.acc exp-kaldi-lang/tri4b/5.8.acc exp-kaldi-lang/tri4b/5.9.acc 
+LOG (gmm-sum-accs:main():gmm-sum-accs.cc:63) Summed 12 stats, total count 6.81436e+06, avg like/frame -45.4108
+LOG (gmm-sum-accs:main():gmm-sum-accs.cc:66) Total count of stats is 6.81436e+06
+LOG (gmm-sum-accs:main():gmm-sum-accs.cc:67) Written stats to -
+LOG (gmm-est:MleUpdate():transition-model.cc:393) TransitionModel::Update, objf change is 3.00894e-12 per frame over 6.81436e+06 frames. 
+LOG (gmm-est:MleUpdate():transition-model.cc:396) 352 probabilities floored, 6340 out of 13515 transition-states skipped due to insuffient data (it is normal to have some skipped.)
+LOG (gmm-est:main():gmm-est.cc:102) Transition model update: Overall 3.00894e-12 log-like improvement per frame over 6.81436e+06 frames.
+WARNING (gmm-est:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.019469, occupation count 9.987741, vector size 40)
+WARNING (gmm-est:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.058789, occupation count 9.994157, vector size 40)
+LOG (gmm-est:MleAmDiagGmmUpdate():mle-am-diag-gmm.cc:225) 0 variance elements floored in 0 Gaussians, out of 23997
+LOG (gmm-est:MleAmDiagGmmUpdate():mle-am-diag-gmm.cc:229) Removed 2 Gaussians due to counts < --min-gaussian-occupancy=10 and --remove-low-count-gaussians=true
+LOG (gmm-est:main():gmm-est.cc:113) GMM update: Overall 0.0132516 objective function improvement per frame over 6.81436e+06 frames
+LOG (gmm-est:main():gmm-est.cc:116) GMM update: Overall avg like per frame = -45.4108 over 6.81436e+06 frames.
+LOG (gmm-est:SplitByCount():am-diag-gmm.cc:116) Split 3484 states with target = 25332, power = 0.2, perturb_factor = 0.01 and min_count = 20, split #Gauss from 23997 to 25332
+LOG (gmm-est:main():gmm-est.cc:146) Written model to exp-kaldi-lang/tri4b/6.mdl
+# Accounting: time=1 threads=1
+# Ended (code 0) at Thu Jul 27 15:36:17 BST 2017, elapsed time 1 seconds

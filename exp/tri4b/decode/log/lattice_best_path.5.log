@@ -1,0 +1,7 @@
+# ali-to-phones --per-frame=true exp-kaldi-lang/tri4b/decode/../final.mdl "ark:gunzip -c exp-kaldi-lang/tri4b/decode/ali_tmp.5.gz|" ark,t:- | paste /dev/stdin <( gunzip -c exp-kaldi-lang/tri4b/decode/depth_tmp.5.gz ) | awk '{ half=NF/2; for (n=2; n<=half; n++) { m=n+half; count[$n " " $m]++;}} END{for(k in count) print k, count[k]; }' | gzip -c > exp-kaldi-lang/tri4b/decode/depth_stats_tmp.5.gz 
+# Started at Thu Jul 27 15:48:29 BST 2017
+#
+ali-to-phones --per-frame=true exp-kaldi-lang/tri4b/decode/../final.mdl 'ark:gunzip -c exp-kaldi-lang/tri4b/decode/ali_tmp.5.gz|' ark,t:- 
+LOG (ali-to-phones:main():ali-to-phones.cc:134) Done 94 utterances.
+# Accounting: time=0 threads=1
+# Ended (code 0) at Thu Jul 27 15:48:29 BST 2017, elapsed time 0 seconds

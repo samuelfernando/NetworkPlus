@@ -1,0 +1,22 @@
+# build-tree --verbose=1 --max-leaves=4200 --cluster-thresh=-1 exp-kaldi-lang/tri4b/treeacc data/lang_test/phones/roots.int exp-kaldi-lang/tri4b/questions.qst data/lang_test/topo exp-kaldi-lang/tri4b/tree 
+# Started at Thu Jul 27 15:34:33 BST 2017
+#
+build-tree --verbose=1 --max-leaves=4200 --cluster-thresh=-1 exp-kaldi-lang/tri4b/treeacc data/lang_test/phones/roots.int exp-kaldi-lang/tri4b/questions.qst data/lang_test/topo exp-kaldi-lang/tri4b/tree 
+LOG (build-tree:main():build-tree.cc:100) Number of separate statistics is 112943
+LOG (build-tree:BuildTree():build-tree.cc:159) BuildTree: before building trees, map has 86 leaves.
+LOG (build-tree:SplitDecisionTree():build-tree-utils.cc:577) DoDecisionTreeSplit: split 4114 times, #leaves now 4200
+LOG (build-tree:BuildTree():build-tree.cc:185) Setting clustering threshold to smallest split 974.328
+VLOG[1] (build-tree:BuildTree():build-tree.cc:194) After decision tree split, num-leaves = 4200, like-impr = 7.86382 per frame over 6.81436e+06 frames.
+VLOG[1] (build-tree:BuildTree():build-tree.cc:198) Including just phones that were split, improvement is 7.86382 per frame over 6.81436e+06 frames.
+LOG (build-tree:BuildTree():build-tree.cc:213) BuildTree: removed 716 leaves.
+VLOG[1] (build-tree:BuildTree():build-tree.cc:220) Objf change due to clustering -0.0648231 per frame.
+VLOG[1] (build-tree:BuildTree():build-tree.cc:223) Normalizing over only split phones, this is: -0.0648231 per frame.
+VLOG[1] (build-tree:BuildTree():build-tree.cc:226) Num-leaves is now 3484
+VLOG[1] (build-tree:main():build-tree.cc:138) For pdf-id 35, low count 49
+VLOG[1] (build-tree:main():build-tree.cc:138) For pdf-id 1191, low count 95
+VLOG[1] (build-tree:main():build-tree.cc:138) For pdf-id 1199, low count 86
+VLOG[1] (build-tree:main():build-tree.cc:138) For pdf-id 2301, low count 85
+WARNING (build-tree:main():build-tree.cc:180) Saw no stats for following phones: 2 3 4 6 7 8 9 11 12 13 14 19 21 23 27 31 32 35 43 47 51 52 53 55 57 59 63 71 75 77 79 81 83 91 95 99 103 107 108 111 116 119 123 127 131 135 139 143 144 145 147 151 155 157 159 161 163 167 169 171 179 181 191 203 207 211 215 221 223 235 239 241 243 251 255 259 263 267 271 275 276 279 281 283 291 295 299 303 307 311 315 316 319 320 323 324 327 331 333 335 337 339 343 347 
+LOG (build-tree:main():build-tree.cc:184) Wrote tree
+# Accounting: time=58 threads=1
+# Ended (code 0) at Thu Jul 27 15:35:31 BST 2017, elapsed time 58 seconds

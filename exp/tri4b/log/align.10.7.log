@@ -1,0 +1,20 @@
+# gmm-align-compiled --transition-scale=1.0 --acoustic-scale=0.1 --self-loop-scale=0.1 --beam=10 --retry-beam=40 exp-kaldi-lang/tri4b/10.mdl "ark:gunzip -c exp-kaldi-lang/tri4b/fsts.7.gz|" "ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split12/7/utt2spk scp:data/train/split12/7/cmvn.scp scp:data/train/split12/7/feats.scp ark:- | splice-feats --left-context=3 --right-context=3 ark:- ark:- | transform-feats exp-kaldi-lang/tri3b_ali/final.mat ark:- ark:- | transform-feats --utt2spk=ark:data/train/split12/7/utt2spk ark,s,cs:exp-kaldi-lang/tri4b/trans.7 ark:- ark:- |" "ark:|gzip -c >exp-kaldi-lang/tri4b/ali.7.gz" 
+# Started at Thu Jul 27 15:36:39 BST 2017
+#
+gmm-align-compiled --transition-scale=1.0 --acoustic-scale=0.1 --self-loop-scale=0.1 --beam=10 --retry-beam=40 exp-kaldi-lang/tri4b/10.mdl 'ark:gunzip -c exp-kaldi-lang/tri4b/fsts.7.gz|' 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split12/7/utt2spk scp:data/train/split12/7/cmvn.scp scp:data/train/split12/7/feats.scp ark:- | splice-feats --left-context=3 --right-context=3 ark:- ark:- | transform-feats exp-kaldi-lang/tri3b_ali/final.mat ark:- ark:- | transform-feats --utt2spk=ark:data/train/split12/7/utt2spk ark,s,cs:exp-kaldi-lang/tri4b/trans.7 ark:- ark:- |' 'ark:|gzip -c >exp-kaldi-lang/tri4b/ali.7.gz' 
+transform-feats exp-kaldi-lang/tri3b_ali/final.mat ark:- ark:- 
+transform-feats --utt2spk=ark:data/train/split12/7/utt2spk ark,s,cs:exp-kaldi-lang/tri4b/trans.7 ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/train/split12/7/utt2spk scp:data/train/split12/7/cmvn.scp scp:data/train/split12/7/feats.scp ark:- 
+splice-feats --left-context=3 --right-context=3 ark:- ark:- 
+WARNING (gmm-align-compiled:AlignUtteranceWrapper():decoder-wrappers.cc:466) Retrying utterance c1gc021v-head with beam 40
+WARNING (gmm-align-compiled:AlignUtteranceWrapper():decoder-wrappers.cc:466) Retrying utterance c1hc022g-head with beam 40
+LOG (apply-cmvn:main():apply-cmvn.cc:146) Applied cepstral mean normalization to 760 utterances, errors on 0
+LOG (transform-feats:main():transform-feats.cc:158) Overall average [pseudo-]logdet is -94.5186 over 533678 frames.
+LOG (transform-feats:main():transform-feats.cc:161) Applied transform to 760 utterances; 0 had errors.
+LOG (transform-feats:main():transform-feats.cc:158) Overall average logdet is 1.82276 over 533678 frames.
+LOG (transform-feats:main():transform-feats.cc:161) Applied transform to 760 utterances; 0 had errors.
+LOG (gmm-align-compiled:main():gmm-align-compiled.cc:129) Overall log-likelihood per frame is -45.6711 over 533678 frames.
+LOG (gmm-align-compiled:main():gmm-align-compiled.cc:131) Retried 2 out of 760 utterances.
+LOG (gmm-align-compiled:main():gmm-align-compiled.cc:133) Done 760, errors on 0
+# Accounting: time=24 threads=1
+# Ended (code 0) at Thu Jul 27 15:37:03 BST 2017, elapsed time 24 seconds

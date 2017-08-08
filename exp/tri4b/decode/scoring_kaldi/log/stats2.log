@@ -1,0 +1,5 @@
+# cat exp-kaldi-lang/tri4b/decode/scoring_kaldi/wer_details/per_utt | utils/scoring/wer_ops_details.pl --special-symbol '***' | sort -b -i -k 1,1 -k 4,4rn -k 2,2 -k 3,3 > exp-kaldi-lang/tri4b/decode/scoring_kaldi/wer_details/ops 
+# Started at Thu Jul 27 15:48:36 BST 2017
+#
+# Accounting: time=0 threads=1
+# Ended (code 0) at Thu Jul 27 15:48:36 BST 2017, elapsed time 0 seconds

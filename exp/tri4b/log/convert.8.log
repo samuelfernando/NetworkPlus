@@ -1,0 +1,7 @@
+# convert-ali exp-kaldi-lang/tri3b_ali/final.mdl exp-kaldi-lang/tri4b/1.mdl exp-kaldi-lang/tri4b/tree "ark:gunzip -c exp-kaldi-lang/tri3b_ali/ali.8.gz|" "ark:|gzip -c >exp-kaldi-lang/tri4b/ali.8.gz" 
+# Started at Thu Jul 27 15:35:33 BST 2017
+#
+convert-ali exp-kaldi-lang/tri3b_ali/final.mdl exp-kaldi-lang/tri4b/1.mdl exp-kaldi-lang/tri4b/tree 'ark:gunzip -c exp-kaldi-lang/tri3b_ali/ali.8.gz|' 'ark:|gzip -c >exp-kaldi-lang/tri4b/ali.8.gz' 
+LOG (convert-ali:main():convert-ali.cc:113) Succeeded converting alignments for 759 files, failed for 0
+# Accounting: time=1 threads=1
+# Ended (code 0) at Thu Jul 27 15:35:34 BST 2017, elapsed time 1 seconds

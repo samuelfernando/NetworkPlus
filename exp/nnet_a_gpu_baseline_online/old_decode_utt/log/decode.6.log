@@ -1,0 +1,324 @@
+# online2-wav-nnet2-latgen-faster --online=true --do-endpointing=false --config=exp/nnet2_online/nnet_a_gpu_baseline_online/conf/online_nnet2_decoding.conf --max-active=7000 --beam=15.0 --lattice-beam=6.0 --acoustic-scale=0.1 --word-symbol-table=exp/tri4b/graph/words.txt exp/nnet2_online/nnet_a_gpu_baseline_online/final.mdl exp/tri4b/graph/HCLG.fst ark:exp/nnet2_online/nnet_a_gpu_baseline_online/decode_utt/per_utt/utt2spk.6 "ark,s,cs:wav-copy scp,p:data/head_eval_test/split8utt/6/wav.scp ark:- |" "ark:|gzip -c > exp/nnet2_online/nnet_a_gpu_baseline_online/decode_utt/lat.6.gz" 
+# Started at Fri Jul 28 17:55:04 BST 2017
+#
+online2-wav-nnet2-latgen-faster --online=true --do-endpointing=false --config=exp/nnet2_online/nnet_a_gpu_baseline_online/conf/online_nnet2_decoding.conf --max-active=7000 --beam=15.0 --lattice-beam=6.0 --acoustic-scale=0.1 --word-symbol-table=exp/tri4b/graph/words.txt exp/nnet2_online/nnet_a_gpu_baseline_online/final.mdl exp/tri4b/graph/HCLG.fst ark:exp/nnet2_online/nnet_a_gpu_baseline_online/decode_utt/per_utt/utt2spk.6 'ark,s,cs:wav-copy scp,p:data/head_eval_test/split8utt/6/wav.scp ark:- |' 'ark:|gzip -c > exp/nnet2_online/nnet_a_gpu_baseline_online/decode_utt/lat.6.gz' 
+wav-copy scp,p:data/head_eval_test/split8utt/6/wav.scp ark:- 
+c3qc0202-head REVENUE DROPPED FOURTEEN PERCENT TO TWELVE POINT SIX BILLION DOLLARS FROM FOURTEEN POINT SEVEN BILLION DOLLARS 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc0202-head
+c3qc0203-head IN LAST YEAR'S SECOND QUARTER PRETAX EARNINGS RULE ONE POINT THREE BILLION DOLLARS 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc0203-head
+c3qc0204-head THE PROBLEM HERE TO IS THAT THE GUARANTEE IS ALL THESE GOOD AS THE ENTITY PROVIDING IT 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc0204-head
+c3qc0205-head THE SO FAR NEITHER S. AND P. NOR A. M. BEST DISTINGUISHES ANY CALL THE DIFFERENCE AMONG THE DOZENS OF INSURERS INVOLVED IN THE G. I. C. BUSINESS 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc0205-head
+c3qc0206-head RECENTLY HOWEVER MOODY'S INVESTORS SERVICE INCORPORATED INTRODUCED A LISTING OF SOME G. I. C. ISSUERS THAT FOR THE FIRST TIME RATES SOME BELOW TRIPLE A CALL A 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc0206-head
+c3qc0207-head THE COMPANY ALSO WAS SETTLED SEVERAL HUNDRED PRODUCT LIABILITY CASES ARE OF COURT INVOLVING THE COPPER SEVEN THE SPOKESWOMAN SAID 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc0207-head
+c3qc0208-head A BY THE SAME NUMBER OF COPPER SEVEN CASES HAVE BEEN DISMISSED BY COURTS SHE SAYS 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc0208-head
+c3qc0209-head SALE HAS ABOUT FIVE HUNDRED COPPER SEVEN CASES CURRENTLY PENDING AGAINST THAT SHE ADDED 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc0209-head
+c3qc020a-head THAT THE TRADE DEFICIT ISN'T THE DOLLAR'S ONLY PROBLEM IS ALSO RESTRAINING MARKET OPTIMISM FOR A MAJOR RECOVERY 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc020a-head
+c3qc020b-head CONTINUED FEAR RECESSION WILL KEEP DOWNWARD PRESSURE ON U. S. INTEREST RATES TRADERS SAID 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc020b-head
+c3qc020c-head THE LAW OR INDUSTRY ITS DECREASE THE APPEAL OF DOLLAR INVESTMENTS AND IN TURN DEMAND FOR DOLLARS 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc020c-head
+c3qc020d-head A THIS IS WELL UNDERSTOOD BY MOST O. T. C. PORTFOLIO MANAGERS MANY OF WHOM MORE IN AN INITIAL OFFERINGS 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc020d-head
+c3qc020e-head THE IN FACT THESE OF THE STOCKS MOST OF THESE FUNDS ARE BUYING AT THE MOMENT 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc020e-head
+c3qc020f-head THEY ARE HUNTING IN THE DEPRESSED OR T. C. MARKET AMONG LISTS OF THE TWO HUNDRED FIFTY OF SAW ISSUES THAT WENT PUBLIC ON THE THREE MONTHS BEFORE THE CRASH 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc020f-head
+c3qc020g-head IN AMERICAN STOCK EXCHANGE COMPOSITE TRADING FRIDAY T. C. SHARES CLOSED AT FOUR POINT EIGHT SEVEN FIVE DOLLARS DYING TWELVE POINT FIVE CENTS 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc020g-head
+c3qc020h-head FOR ITS FIRST QUARTER ENDED SEPTEMBER THIRTIETH T. C. DURING TWENTY FOUR THOUSAND DOLLARS OR THREE CENTS A SHARE ON SALES OF ABOUT TWO MILLION DOLLARS 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc020h-head
+c3qc020i-head A NET INCOME INCLUDING THE END OF ONE HUNDRED NINETEEN THOUSAND DOLLARS FROM THE SILVER PRODUCT LINE 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc020i-head
+c3qc020j-head PAUL MS. BUT OF PRUDENTIAL BACHE SECURITIES REDUCED HIS FOURTH QUARTER ESTIMATE TWENTY FIVE PERCENT TO NINETY EIGHT CENTS A SHARE 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc020j-head
+c3qc020k-head THE OF AS SMITH OF ALEX 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc020k-head
+c3qc020l-head BRIERLEY AND SONS CUT HIS ESTIMATE TO NINETY FIVE CENTS A SHARE FROM ONE DOLLAR FIFTEEN CENTS 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc020l-head
+c3qc020m-head TRADERS SAY THE RULE ALREADY HAS AT SOME IMPACT ON THE MARKET 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc020m-head
+c3qc020n-head THE MR. BAKER SAYS THAT ON FRIDAY MORNING THE MOVES IN FUTURES INDICATED THAT THE INDUSTRIAL AVERAGE WOULD OF THE IN SEVENTY TO NINETY POINTS 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc020n-head
+c3qc020o-head SAID THEY RESTRAINED THEMSELVES 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc020o-head
+c3qc020p-head SOME GUYS DID BACK AWAY HE CONTENDS I THE INDUSTRIALS ROSE ALL NEAR BUT FIFTY POINTS IN THE FIRST HALF ARE OF STOCK TRADING 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc020p-head
+c3qc020q-head MR. BAKER SAYS THAT THE PROGRAM TRADING LIMIT IS A GOOD IDEA TEMPORARILY BUT THE THAT WOULD MAKE SENSE FOR THE LONGER TERM 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc020q-head
+c3qc020r-head I DON'T SEE HIGH THEY CAN BASICALLY PASS LEGISLATION TO STOP PROGRAM TRADING HE ARGUES 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc020r-head
+c3qc020s-head YOU MEANS TELL ME THEY WANT COME UP THE NEW PRODUCT 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc020s-head
+c3qc020t-head THERE'S A LOT OF SMART PEOPLE OUT THERE 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc020t-head
+c3qc020u-head THE PRODUCER PRICES FELL ZERO POINT THREE PERCENT IN DECEMBER INDICATING INFLATION REMAINS UNDER CONTROL 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc020u-head
+c3qc020v-head FOR NINETEEN EIGHTY SEVEN PRICES ROSE TWO POINT TWO PERCENT 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc020v-head
+c3qc020w-head INDUSTRIAL I'D PUT THE IN ZERO POINT TWO PERCENT LAST MONTH AND THREE POINT EIGHT PERCENT FOR THE YEAR 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc020w-head
+c3qc020x-head THE WELLS FINAL SAID THE PURCHASE WILL STRENGTHEN ITS RETAIL PRESENCE IN CALIFORNIA AND REFLECTS ITS STRATEGY OF CONCENTRATING ON THE MARKET IN AT SOME STATE 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc020x-head
+c3qc020y-head WELLS FAR GOAL WHICH OF ASSETS OF ABOUT FORTY FIVE BILLION DOLLARS AS OF SEPTEMBER THIRTIETH OPERATES FOUR HUNDRED THREE SEVEN BRANCHES IN CALIFORNIA 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc020y-head
+c3qc020z-head FOR NINETEEN EIGHTY SEVEN FIRST NINE MONTHS WELLS FOREIGN WILL POSTED LOSS OF SIXTY POINT FOUR MILLION DOLLARS 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc020z-head
+c3qc0210-head I DOES HE FIND EASING SITE 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc0210-head
+c3qc0211-head HIS INFORMATION AMAZES ME MR. EDELMAN SAYS THE IS SPOKESMAN 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc0211-head
+c3qc0212-head I DON'T KNOW HIGH GET SET 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc0212-head
+c3qc0301-head ARE STILL G. HOUSE USED A TECHNIQUES OF THE CORPORATE RAIDER IN THEY TESTING ARE ICY A 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc0301-head
+c3qc0302-head IS HAS SOLD ONE POINT THREE BILLION DOLLARS OF R. C. A.'S ASSETS INCLUDING RECORDS LIFE INSURANCE CARPETING AND LAW AND RECEIVABLES 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc0302-head
+c3qc0303-head G. E. PLANS TO CUT THREE HUNDRED MILLION DOLLARS IN COSTS NEXT YEAR 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc0303-head
+c3qc0304-head THE AND THE COMPANY SAYS IT COULD MAKE ANOTHER R. C. A. SIZE ACQUISITION NEXT YEAR IF IT WERE WILLING TO SEE ITS CREDIT RATING DOWNGRADED TO DOUBLE A 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc0304-head
+c3qc0305-head FIRST INTERSTATE BUCKED THE TRANS AND RULES WANT TO FIFTY SEVEN 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc0305-head
+c3qc0306-head THE WEST COAST BANK DROPPED ITS TAKEOVER OFFER FOR BANKAMERICA SAYING BANKAMERICA'S CONTINUED ASSET SALES MID FIRST INTERSTATE'S THREE POINT TWO THREE BILLION DOLLAR TAKEOVER PROPOSAL TOO HIGH 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc0306-head
+c3qc0307-head BANKAMERICA FELL ONE TO TWELVE AND SEVEN E. ITS ON MORE THAN TWO POINT ONE MILLION SHARES 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc0307-head
+c3qc0308-head AND WHILE PROLONGED EXPOSURE TO CALLED AIR OR WATER CAN BE FATAL MOST VICTIMS OF THE TITANIC DIED OF HYPOTHERMIA BRIEF ENCOUNTERS MAY ARE ACTUALLY BE BENEFICIAL 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc0308-head
+c3qc0309-head MR. POZOS NOTES THAT SCANDINAVIANS HAVE BEEN RUNNING OUT OF SEOUL AS AND PLUNGING INTO ICY WATER FREE YEARS 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc0309-head
+c3qc030a-head THE IF IT HADN'T BEEN GOOD FOR THEM HE SAYS THEY'D ALL BE DEAD 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc030a-head
+c3qc030b-head ALL EYES ON I UPON TEXAS 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc030b-head
+c3qc030c-head TEXACO ALREADY HAS APPEALED THE MERITS OF THE KISS TO THE STATE SUPREME COURT 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc030c-head
+c3qc030d-head THE JUSTICES CAN SAVE THEMSELVES EMBARRASSMENT OF REVIEW BOTH FEDERAL COURTS IF THEY DO NIGH WHAT JUDGE CASSEB SHOULD HAVE DONE TWO YEARS AGO 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc030d-head
+c3qc030e-head THE DETECT ADDITIONAL NICHOLAS OF THE FACTORS ANOTHER STATE'S LAW APPLIES AND CERTIFY THE CASE AS ONE FOR THE NEW YORK COURTS 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc030e-head
+c3qc030f-head THE BETTER HURRY UP PENNZOIL'S MR. JAMAIL SAID YESTERDAY 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc030f-head
+c3qc030g-head A PENNZOIL'S ASSURANCE THAT THE WANT BEGIN SECURING THE JUDGMENT IS GOOD OR ONLY IF TEXACO PROMPTLY BEGINS SEEKING RESOLUTION OF THE BOND AND LEAN CONTROVERSY IN TEXAS COURTS 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc030g-head
+c3qc030h-head ASK SAID DEFINE PROMPTLY MR. JAMAIL SAID THEY'VE GOT TILL TOMORROW MEANING TODAY 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc030h-head
+c3qc030i-head OF ALL THIS AS LEFT GRAIN EXPORTERS INCREASINGLY DEPENDENT ON ONE MAJOR IMPORTER THE SOVIET UNION 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc030i-head
+c3qc030j-head TWO YEARS AGO ONE QUARTER OF THE WORLD'S GRAIN EXPORTS WERE BUYING FOR RUSSIAN PORTS 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc030j-head
+c3qc030k-head BUT SOVIET PRODUCERS HAVE PLUMMETED SINCE THEN AND LAST FALL THE U. S. S. R. HARVESTED ITS BEST CROP SINCE NINETEEN SEVENTY YET 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc030k-head
+c3qc030l-head A RESULT THE HERE IS DIFFERENT FROM IDEALS A FOREIGN FUND MANAGER WHO HAS WORKED IN TOKYO FOR SEVERAL YEARS SAYS 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc030l-head
+c3qc030m-head IS STANDARDS DON'T CHANGE BUT YOU'VE GOT TO BE PRACTICAL AND SENSIBLE 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc030m-head
+c3qc030n-head YOU GOT PICK UP THE INVESTMENT TOOLS OF THE MARKET !NOISE 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc030n-head
+c3qc030o-head A HEAVY INDUSTRY SHARES DREW INVESTORS BECAUSE OF THE ROLE OF THE OIL PRICE AND LAGGARD STATUS DEALERS SAID 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc030o-head
+c3qc030p-head IS SHE COLLAR YOU MAHONEY MOUTH FOR INSTANCE MOVED UP THIRTEEN YEN TO SEVENTEEN THIRTY SEVEN YEN FIVE DOLLARS AND TWELVE CENTS 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc030p-head
+c3qc030q-head THE COLLAR SLIGHTLY STEEL GAINED ELEVEN YEN TO TWO HUNDRED SEVENTY TWO YEN AND NIPPON STEEL WAS UP SIX YEN UP THREE HUNDRED SIXTY SEVEN YEAR 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc030q-head
+c3qc030r-head WOULD EVER DEVELOPS SLOW GROWTH SEEMS PREFERABLE TO NOR GROWTH OR ECONOMIC DECLINE 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc030r-head
+c3qc030s-head THE BIDDERS ALSO MAY BE PREFERABLE TO SWIFT GROWTH WHICH COULD BRING ON THE SITES OF PRESSURES THAT THE PAST OF HASTENED RECESSIONS 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc030s-head
+c3qc030t-head OTHER LIKELY THOSE PRESSURES SEEM MUCH LIKELIER TO BUILD DANGEROUSLY IF THE U. S. GETS ITS WAY AT VENICE 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc030t-head
+c3qc030u-head IN SHORT WHO WOULD REALLY RUN FOREIGN AND DEFENSE POLICY MR. DUKAKIS ON MR. NONE 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc030u-head
+c3qc030v-head STILL IN THE HEAT OF A POLITICAL CONVENTION STRANGE IDEAS DO SURFACE LIKE SPIRO AGNEW THOMAS EAGLETON AND GERALDINE FERRARO 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc030v-head
+c3qc030w-head AND UNTIL COOLER HEADS PREVAILED IN NINETEEN EIGHTY RONALD REAGAN WAS TEMPTED TO OFFER GERALD FORD A POSITION MUCH LIKE THAT ENVISIONED FOR SENATOR NUNN 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc030w-head
+c3qc030x-head THE STATE AND LOCAL PROPERTY TAXES AS A PERCENTAGE OF NATIONWIDE TOTAL PERSONAL INCOME ROSE STEADILY FROM THE NINETEEN FIFTIES THROUGH NINETEEN SEVENTY THREE 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc030x-head
+c3qc030y-head FROM NINETEEN SEVENTY FOUR THROUGH NINETEEN EIGHTY ONE STATE AND LOCAL TAXES GENERALLY DECLINED AS A PERCENTAGE OF IN COME TO 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc030y-head
+c3qc030z-head THERE HAS BEEN A MODEST INCREASE SINCE NINETEEN EIGHTY ONE 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc030z-head
+c3qc0310-head THE NATIONAL TREND OF RELATIVELY DECLINING STATE LOCAL TAXES WAS ABOUT FIVE YEARS OLD WHEN CALIFORNIA GOT THE BANDWAGON 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc0310-head
+c3qc0311-head WHY THE BIG DISCOUNT FOR THE CAPITAL SHARES 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc0311-head
+c3qc0312-head AFTER ALL THOUGH SHARES NET ASSET VALUE HAS OUT C. APPRECIATED EIGHTEEN PERCENT IN LINE WITH THE LIVER INDEX 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc0312-head
+c3qc0313-head MR. HART'S FELT SAYS THE SHARES DISCOUNT RESEMBLES THAT THE ZERO COUPON BOND BECAUSE INVESTORS WANT SEE THE PAYOUT UNTIL NINETEEN NINETY SEVEN 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3qc0313-head
+c3ra0101-head 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3ra0101-head
+c3ra0102-head SHE HAD YOUR DARK SUIT IN GREASY WASH WATER ALL YEAR 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3ra0102-head
+c3ra0103-head DON'T ASK ME TO CARRY AN OILY RAG LIKE THAT 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3ra0103-head
+c3ra0104-head FEMALE PRODUCES A LITTER OF TWO TO FOUR YOUNG IN NOVEMBER AND DECEMBER 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3ra0104-head
+c3ra0105-head NUMEROUS WORKS OF ART ARE BASED ON THE STORY OF THE SACRIFICE OF ISAAC 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3ra0105-head
+c3ra0106-head THEIR SOLUTION REQUIRES DEVELOPMENT OF THE HUMAN CAPACITY FOR SOCIAL INTEREST 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3ra0106-head
+c3ra0107-head HIS MOST SIGNIFICANT SCIENTIFIC PUBLICATIONS WERE STUDIES OF BIRDS AND ANIMALS 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3ra0107-head
+c3ra0108-head IN RECENT YEARS SHE HAS PRIMARILY APPEARED IN TELEVISION FILMS SUCH AS LITTLE GLORIA 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3ra0108-head
+c3ra0109-head PROCESS BY WHICH THE LENS FOCUSES ON EXTERNAL OBJECTS IS CALLED ACCOMMODATION 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3ra0109-head
+c3ra010a-head THE TWO NARROW GAUGE RAILROADS FROM CHINA ENTER THE CITY FROM THE NORTHEAST AND NORTHWEST 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3ra010a-head
+c3ra010b-head SOME MAPS USE BANDS OF COLOR TO INDICATE DIFFERENT INTERVALS OF VALUE 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3ra010b-head
+c3ra010c-head ORIGINS OR CAUSES OF SPONTANEOUS MUTATION ARE NOT YET COMPLETELY CLEAR 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3ra010c-head
+c3ra010d-head UNUSUALLY HIGH LEVELS OF RADIATION WERE DETECTED IN MANY EUROPEAN COUNTRIES 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3ra010d-head
+c3ra010e-head BOTH PETROLEUM AND NATURAL GAS DEPOSITS ARE SCATTERED THROUGH EASTERN OHIO 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3ra010e-head
+c3ra010f-head FOR THE FIRST TIME IN YEARS THE REPUBLICANS ALSO CAPTURED BOTH HOUSES OF CONGRESS 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3ra010f-head
+c3ra010g-head SOUTH CAROLINA EDUCATIONAL RADIO NETWORK HAS WON NATIONAL BROADCASTING AWARDS 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3ra010g-head
+c3ra010h-head A TANKER IS A SHIP DESIGNED TO CARRY LARGE VOLUMES OF OIL OR OTHER LIQUID CARGO 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3ra010h-head
+c3ra010i-head THE ENORMOUS AMOUNTS OF CARBON DIOXIDE IN THE ATMOSPHERE CAUSE THIS HIGH PRESSURE 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3ra010i-head
+c3rc0201-head WASHINGTON POST COMPANY RAISED ITS QUARTERLY DIVIDEND TO THIRTY NINE CENTS A SHARE FROM THIRTY TWO CENTS PAYABLE FEBRUARY TWELFTH TO STOCK OF RECORD JANUARY TWENTY NINTH 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc0201-head
+c3rc0202-head A SPOKESMAN FOR THE WASHINGTON PUBLISHING CONCERN SAID THE TWENTY TWO PERCENT INCREASE REFLECTS EARNINGS GROWTH 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc0202-head
+c3rc0203-head THE DIVIDEND HAS BEEN RAISED ANNUALLY FOR THE PAST TWELVE YEARS INCLUDING A BOOST OF ABOUT FOURTEEN PERCENT A YEAR AGO 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc0203-head
+c3rc0204-head THE JOB PAYS THREE HUNDRED RUN THE MONTH WHEN HE WAS PAINTING HE MID THAT MUCH EVERY WEEK 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc0204-head
+c3rc0205-head FORCED TO SCRIMP HE TRIED GIVING UP SMOKING BUT COULDN'T SWEEP CUT TIME ON HAS GASOLINE CONSUMPTION INSTEAD 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc0205-head
+c3rc0206-head NIGH HE USES AS CAR ON THE TO GET TO WORK 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc0206-head
+c3rc0207-head INSTITUTIONAL INVESTORS FUELED THE RISE BY SHIFTING ASSETS TO THE FUNDS IN RESPONSE TO DECLINING RATES AVAILABLE ON SHORT TERM SECURITIES IN THE MARKET 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc0207-head
+c3rc0208-head ALSO WILL INDIVIDUAL INVESTORS' CONCERN ALL FOR VOLATILITY IN FINANCIAL MARKETS MAY HAVE CONTRIBUTED TO THE INCREASE SHE SAID 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc0208-head
+c3rc0209-head LAST FRIDAY THE DOW JONES INDUSTRIAL AVERAGE POSTED ITS THIRD BIGGEST POINT DECLINE EVER 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc0209-head
+c3rc020a-head THE UNDERLYING ANNUAL RATE OF INCREASE IN AVERAGE EARNINGS ROSE TO EIGHT AND ONE QUARTER PERCENT TO NOVEMBER FROM OCTOBER'S EIGHT PERCENT THE DEPARTMENT OF TRADE AND INDUSTRY SAID 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc020a-head
+c3rc020b-head MOST ANALYSTS EXPECTED THE RATE TO HOLD STEADY AT THE EIGHT PERCENT 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc020b-head
+c3rc020c-head AREN'T WERE PRESSURE ON WAGES TRICKED WILL BEAR A NOVEMBER FAULT SEVERAL MONTHS OF STABILITY 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc020c-head
+c3rc020d-head THE NEW SEVEN THOUSAND FOOT TRADING AREA COST ABOUT TWENTY MILLION DOLLARS ON WILL ACCOMMODATE ABOUT FOUR HUNDRED PEOPLE 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc020d-head
+c3rc020e-head IT MARKS THE FIRST MAJOR EXPANSION OF THE BIG BOARD'S EQUITIES TRADING FLOOR SINCE NINETEEN SIXTY NINE 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc020e-head
+c3rc020f-head THE TRADING FLOOR WILL LIE TOTAL THIRTY SEVEN THOUSAND SQUARE FEET 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc020f-head
+c3rc020g-head THE LAWS FARE AS A ONE HUNDRED FORTY NINE DOLLARS EACH WAY BETWEEN LONDON AND NEW YORK ON ONE HUNDRED NINETY NINE DOLLARS EACH WAY BETWEEN PARIS AND NEW YORK 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc020g-head
+c3rc020h-head THE FERROUS REQUIRE MIDWEEK TROUBLE ROUND TRIP TICKET PURCHASE WITH RESERVATIONS PLACED AT LEAST ONE WEEK IN ADVANCE 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc020h-head
+c3rc020i-head TRAVEL MUST BE BETWEEN FEBRUARY FIRST A MARKED SEVENTEENTH 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc020i-head
+c3rc020j-head A FOUR DAY MINIMUM STAY IS REQUIRED AND SEATS ARE LIMITED 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc020j-head
+c3rc020k-head MR. HARRIS'S DEPARTURE ISN'T EXPECTED TO BE THE ONLY ONE AT SALOMON FOR THE NEXT COUPLE WEEKS 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc020k-head
+c3rc020l-head INVESTMENT BANKERS AND TRADERS GENERALLY DECIDE TO SWITCH FIRMS AFTER RECEIVING THEIR YEAR END BONUSES 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc020l-head
+c3rc020m-head AND SOME CASES FIRMS ENCOURAGE SENIOR PEOPLE TO LEAVE BUT PAYING THEM ARE MUCH SMALLER BONUS THAN WOULD BE EXPECTED 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc020m-head
+c3rc020n-head ANALYST BY UNITED CABLE A BETWEEN THIRTY SEVEN DOLLARS AND FORTY FIVE DOLLARS A SHARE 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc020n-head
+c3rc020o-head IN NEW YORK STOCK EXCHANGE COMPOSITE TRADING YESTERDAY UNITED CABLE CLOSE TWENTY THREE POINT EIGHT SEVEN FIVE DOLLARS UP ONE DOLLAR AND SEVENTY FIVE CENTS 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc020o-head
+c3rc020p-head IN NATIONAL FOR THE COUNTER TRADING UNITED ART AS CLOSE TO TWENTY FOUR DOLLARS AND FIFTY CENTS ON CHANGED 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc020p-head
+c3rc020q-head AUTOS SALES ROSE TWO POINT FOUR PERCENT IN DECEMBER AFTER DECLINING ZERO POINT SEVEN PERCENT IN NOVEMBER 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc020q-head
+c3rc020r-head FURNITURE SALES FELL ZERO POINT FIVE PERCENT AFTER RISING ZERO POINT TWO PERCENT 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc020r-head
+c3rc020s-head SEALED OF BUILDING MATERIALS INCREASED ONE POINT THREE PERCENT AFTER A ONE POINT ONE PERCENT DROP 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc020s-head
+c3rc020t-head WILL FOR ALL SEALED TO DURABLE GOODS AND TEN TO TASK THREE YEARS A MORE CLIMBED ONE POINT SEVEN PERCENT AFTER A ZERO POINT TWO PERCENT RISE IN NOVEMBER 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc020t-head
+c3rc020u-head STEELS OF NONDURABLE GOODS EDGED UP ZERO POINT ONE PERCENT IN EACH MONTH 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc020u-head
+c3rc020v-head WITH THAN THIS CATEGORY STEELS A GENERAL MERCHANDISE STORES INCLUDING DEPARTMENT STORES FELL ZERO POINT FOUR PERCENT IN DECEMBER AFTER BEEN ON CHANGED IN NOVEMBER 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc020v-head
+c3rc020w-head STEELS AT APPAREL STORES ROSE ZERO POINT THREE PERCENT AFTER A ONE POINT SIX PERCENT DROP 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc020w-head
+c3rc0301-head EARNINGS FAILED TO EIGHTY ONE MILLION DOLLARS OR FIFTY FOUR CENTS A SHARE FROM ONE HUNDRED THIRTY TWO MILLION DOLLARS OR NINETY CENTS A SHARE 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc0301-head
+c3rc0302-head QUARTERLY PRE TAX PROFIT FOR THE SECURITIES TRADING FROM FELL FORTY THREE PERCENT TO ONE HUNDRED TWENTY NINE MILLION DOLLARS FROM TWO HUNDRED TWENTY SEVEN MILLION DOLLARS 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc0302-head
+c3rc0303-head SALOMON LAST MONTH SELLER EXPECTED TO POST FORTY PERCENT DECLINE IN FOURTH QUARTER PROFIT 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc0303-head
+c3rc0304-head THE QUESTION OF HOW MANY DAYS IN ADVANCE A TICKET HAS TO BE PURCHASED IS A CRITICAL ISSUE FOR THE AIRLINE INDUSTRY 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc0304-head
+c3rc0305-head THE MORE RESTRICTIVE THE ADVANCE PURCHASE REQUIREMENT THE LESS DAMAGING A CHEAP FARE IS FOR THE AIRLINE 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc0305-head
+c3rc0306-head THAT'S MAINLY BECAUSE THE NUMBER PEOPLE WHO CAN TAKE ADVANTAGE OF THE FARE PARTICULARLY BUSINESS TRAVELERS IS LIMITED 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc0306-head
+c3rc0307-head ONE REASON THE MAXSAVER HAS ATTRACTED SO MUCH ATTENTION IS AT ITS TO DAY ADVANCE PURCHASE REQUIREMENT MAKES A POSSIBLE FOR VIRTUALLY ANYBODY TO USE THE FARE 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc0307-head
+c3rc0308-head BUDGET PROBABLY WOULD BE A MOOT ISSUE HE SAID BECAUSE THE I. C. O. CAN'T PULL THE PRICE UP TO ANY LEVEL 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc0308-head
+c3rc0309-head MARKET HOUSE TO DO THAT 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc0309-head
+c3rc030a-head AND THE I. C. O. HAS NEVER IGNORED THE MARKET PRICE PREVAILING WILL IT SETS THE QUARTER PRICE RANGE 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc030a-head
+c3rc030b-head IF THEY WANT TO LAW THEMSELVES A FEW NOTCHES FINE ANSWERS MS. BALUKAS 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc030b-head
+c3rc030c-head THE QUALITY OF MEN'S PLAY IS FAR SUPERIOR 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc030c-head
+c3rc030d-head AND TRYING TO REALIZE MY OWN POTENTIAL AS A PLAYER NOT JUST AS A WOMAN PLAYER 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc030d-head
+c3rc030e-head I'M NOT OUT HERE TO DRILL THE MAY AND 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc030e-head
+c3rc030f-head NIGHT FREE OF INTEREST AND PENSION OBLIGATIONS DALLAS BASED L. T. V. IS SITTING ON ALMOST ONE BILLION DOLLARS IN CASH 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc030f-head
+c3rc030g-head THE COMPANY HAS SLASHED THIRTY WILL PERCENT OF THAT STEEL CAPACITY AND SHARPLY CUT STEELMAKING COSTS AT A TIME OF THE DOMESTIC STEEL OUTLOOK IS IMPROVING 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc030g-head
+c3rc030h-head AN AT HOUSE A TENTATIVE AGREEMENT WITH THE UNITED STEELWORKERS THAT PRACTICALLY ELIMINATES THE FOR ACT OF A STRIKE 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc030h-head
+c3rc030i-head BUT ANALYST WHO HAVE LONG BEEN CALLED TOWARD ERICSSON SAID THE REPORT WAS THE LATEST IN A STRING OF DISAPPOINTMENTS FROM THE GROUP 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc030i-head
+c3rc030j-head THIS IS BY NO MEANS POSITIVE SAID TIM YOUNGMAN A SCANDINAVIAN SPECIALIST AT SAVORY WILL A LONDON BROKERAGE 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc030j-head
+c3rc030k-head HE SAID THE REPORT WILL CAUSE HIM TO DOLLAR AGREED HIS FULL YEAR EARNINGS FORECAST FOR THE GROUP 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc030k-head
+c3rc030l-head WILL BE SPORTS OPERATES THIRTY EIGHT STORES AND FLORIDA NORTH CAROLINA TENNESSEE AND ALABAMA 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc030l-head
+c3rc030m-head WILL BE SPORTING GOODS HAS SEVEN STORES IN GEORGIA 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc030m-head
+c3rc030n-head THE TWO HAD ESTIMATED NINETEEN EIGHTY SEVEN SALES OF ABOUT FIFTY EIGHT MILLION DOLLARS 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc030n-head
+c3rc030o-head EVEN SCIENTISTS ADMITTED THAT RESEARCH INITIALLY SUFFERED FROM OTHER SCIENTISTS' TENDENCY TO AVOID TOPICS INVOLVING SACHS 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc030o-head
+c3rc030p-head HEALTH OFFICIALS LOST TIME UNDERSTANDING THE SPREAD OF THE DISEASE BECAUSE THEY DELAYED TALKING WITH MEMBERS OF HIGH RISK GROUPS 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc030p-head
+c3rc030q-head THIS FAILURE TO CONSULT THE FACTOR GRIP IS CHARACTERISTIC OF THE PATERNALISTIC TRADITIONS IN MEDICINE MS. PANEM NOTES 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc030q-head
+c3rc030r-head MR. JOHNSON ADDED IN HIS STATEMENT THAT WILL FOR THE PAST FIVE YEARS G. M. HAS UNDERGONE TREMENDOUS CHANGE AND UNDERTAKEN A NUMBER OF EXTRA ORDINARY TRANSACTIONS 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc030r-head
+c3rc030s-head AND LARGE THAT THEY HAD OPPORTUNITY TO CONTRIBUTE TO THE PROCESS 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc030s-head
+LOG (wav-copy:main():wav-copy.cc:68) Copied 155 wave files
+c3rc030t-head HE CONCLUDED THAT HE WILL BUILD ON THE VALUABLE EXPERIENCES AND INSIGHTS THAT I HAVE KEY INSURER MAY YEARS WITH GENERAL MOTORS 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3rc030t-head
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:36) Timing stats: real-time factor was 1.0236 (note: this cannot be less than one.)
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:38) Average delay was 0.170248 seconds.
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:42) Percentage of time spent idling was 55.8106
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:44) Longest delay was 1.63573 seconds for utterance 'c3qc030y-head'
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:279) Decoded 155 utterances, 0 with errors.
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:281) Overall likelihood per frame was 0.309419 per frame over 111527 frames.
+# Accounting: time=523 threads=1
+# Ended (code 0) at Fri Jul 28 18:03:47 BST 2017, elapsed time 523 seconds

@@ -1,0 +1,16 @@
+# compile-train-graphs --read-disambig-syms=data/lang_test/phones/disambig.int --batch-size=750 exp-kaldi-lang/tri4b/tree exp-kaldi-lang/tri4b/1.mdl data/lang_test/L.fst "ark:sym2int.pl --map-oov 4 -f 2- data/lang_test/words.txt < data/train/split12/11/text |" "ark:|gzip -c >exp-kaldi-lang/tri4b/fsts.11.gz" 
+# Started at Thu Jul 27 15:35:35 BST 2017
+#
+compile-train-graphs --read-disambig-syms=data/lang_test/phones/disambig.int --batch-size=750 exp-kaldi-lang/tri4b/tree exp-kaldi-lang/tri4b/1.mdl data/lang_test/L.fst 'ark:sym2int.pl --map-oov 4 -f 2- data/lang_test/words.txt < data/train/split12/11/text |' 'ark:|gzip -c >exp-kaldi-lang/tri4b/fsts.11.gz' 
+sym2int.pl: replacing *SCATTERED* with 4
+sym2int.pl: replacing SPEN(DING)- with 4
+sym2int.pl: replacing *CARGO* with 4
+sym2int.pl: replacing *AETNA* with 4
+sym2int.pl: replacing *AETNA* with 4
+sym2int.pl: replacing CAP(ITAL)- with 4
+sym2int.pl: replacing *CORRUPTION* with 4
+sym2int.pl: replacing *SEOW* with 4
+** Replaced 8 instances of OOVs with 4
+LOG (compile-train-graphs:main():compile-train-graphs.cc:145) compile-train-graphs: succeeded for 855 graphs, failed for 0
+# Accounting: time=16 threads=1
+# Ended (code 0) at Thu Jul 27 15:35:51 BST 2017, elapsed time 16 seconds

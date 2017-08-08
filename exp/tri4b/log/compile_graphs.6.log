@@ -1,0 +1,23 @@
+# compile-train-graphs --read-disambig-syms=data/lang_test/phones/disambig.int --batch-size=750 exp-kaldi-lang/tri4b/tree exp-kaldi-lang/tri4b/1.mdl data/lang_test/L.fst "ark:sym2int.pl --map-oov 4 -f 2- data/lang_test/words.txt < data/train/split12/6/text |" "ark:|gzip -c >exp-kaldi-lang/tri4b/fsts.6.gz" 
+# Started at Thu Jul 27 15:35:35 BST 2017
+#
+compile-train-graphs --read-disambig-syms=data/lang_test/phones/disambig.int --batch-size=750 exp-kaldi-lang/tri4b/tree exp-kaldi-lang/tri4b/1.mdl data/lang_test/L.fst 'ark:sym2int.pl --map-oov 4 -f 2- data/lang_test/words.txt < data/train/split12/6/text |' 'ark:|gzip -c >exp-kaldi-lang/tri4b/fsts.6.gz' 
+sym2int.pl: replacing *CULINARY* with 4
+sym2int.pl: replacing *YLVISAKER* with 4
+sym2int.pl: replacing *MCCABE* with 4
+sym2int.pl: replacing *MCCABE* with 4
+sym2int.pl: replacing *JAPANESE* with 4
+sym2int.pl: replacing *THE* with 4
+sym2int.pl: replacing *ADJOURNS* with 4
+sym2int.pl: replacing *INFLATIONARY* with 4
+sym2int.pl: replacing AUGUS(T)- with 4
+sym2int.pl: replacing *COCKBURN'S* with 4
+sym2int.pl: replacing GA(S)- with 4
+sym2int.pl: replacing *GRAYING* with 4
+sym2int.pl: replacing *PALL* with 4
+sym2int.pl: replacing *EPISCOPAL* with 4
+sym2int.pl: replacing *EMPLOYEE* with 4
+** Replaced 15 instances of OOVs with 4
+LOG (compile-train-graphs:main():compile-train-graphs.cc:145) compile-train-graphs: succeeded for 867 graphs, failed for 0
+# Accounting: time=17 threads=1
+# Ended (code 0) at Thu Jul 27 15:35:52 BST 2017, elapsed time 17 seconds

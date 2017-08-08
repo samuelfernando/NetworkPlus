@@ -1,0 +1,5 @@
+# cat exp-kaldi-lang/tri4b/decode.si/scoring_kaldi/penalty_0.5/8.txt | compute-wer --text --mode=present ark:exp-kaldi-lang/tri4b/decode.si/scoring_kaldi/test_filt.txt ark,p:- >& exp-kaldi-lang/tri4b/decode.si/wer_8_0.5 
+# Started at Thu Jul 27 15:42:57 BST 2017
+#
+# Accounting: time=0 threads=1
+# Ended (code 0) at Thu Jul 27 15:42:57 BST 2017, elapsed time 0 seconds

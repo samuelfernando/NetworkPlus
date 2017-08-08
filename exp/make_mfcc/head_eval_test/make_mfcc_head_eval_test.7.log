@@ -1,0 +1,36 @@
+# compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/head_eval_test/wav_head_eval_test.7.scp ark:- | copy-feats --compress=true ark:- ark,scp:/home/samf/NetworkPlus/data/mfcc-test-eval/raw_mfcc_head_eval_test.7.ark,/home/samf/NetworkPlus/data/mfcc-test-eval/raw_mfcc_head_eval_test.7.scp 
+# Started at Fri Aug  4 10:35:30 BST 2017
+#
+compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/head_eval_test/wav_head_eval_test.7.scp ark:- 
+copy-feats --compress=true ark:- ark,scp:/home/samf/NetworkPlus/data/mfcc-test-eval/raw_mfcc_head_eval_test.7.ark,/home/samf/NetworkPlus/data/mfcc-test-eval/raw_mfcc_head_eval_test.7.scp 
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key c46c020u-head
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key c46c020v-head
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key c46c020w-head
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key c46c020x-head
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key c46c020y-head
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key c46c020z-head
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key c46c0210-head
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key c46c0211-head
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key c46c0212-head
+LOG (compute-mfcc-feats:main():compute-mfcc-feats.cc:177) Processed 10 utterances
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key c46c0213-head
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key c46c0214-head
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key c46c0301-head
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key c46c0302-head
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key c46c0303-head
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key c46c0304-head
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key c46c0305-head
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key c46c0306-head
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key c46c0307-head
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key c46c0308-head
+LOG (compute-mfcc-feats:main():compute-mfcc-feats.cc:177) Processed 20 utterances
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key c46c0309-head
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key c46c030a-head
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key c46c030b-head
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key c46c030c-head
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key c46c030d-head
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key c46c030e-head
+LOG (compute-mfcc-feats:main():compute-mfcc-feats.cc:181)  Done 25 out of 25 utterances.
+LOG (copy-feats:main():copy-feats.cc:120) Copied 25 feature matrices.
+# Accounting: time=2 threads=1
+# Ended (code 0) at Fri Aug  4 10:35:32 BST 2017, elapsed time 2 seconds

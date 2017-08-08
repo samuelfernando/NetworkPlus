@@ -1,0 +1,2 @@
+sum-tree-stats exp-kaldi-lang/tri4b/treeacc exp-kaldi-lang/tri4b/1.treeacc exp-kaldi-lang/tri4b/10.treeacc exp-kaldi-lang/tri4b/11.treeacc exp-kaldi-lang/tri4b/12.treeacc exp-kaldi-lang/tri4b/2.treeacc exp-kaldi-lang/tri4b/3.treeacc exp-kaldi-lang/tri4b/4.treeacc exp-kaldi-lang/tri4b/5.treeacc exp-kaldi-lang/tri4b/6.treeacc exp-kaldi-lang/tri4b/7.treeacc exp-kaldi-lang/tri4b/8.treeacc exp-kaldi-lang/tri4b/9.treeacc 
+LOG (sum-tree-stats:main():sum-tree-stats.cc:88) Wrote summed accs ( 112943 individual stats)

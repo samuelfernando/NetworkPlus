@@ -1,0 +1,20 @@
+# compile-train-graphs --read-disambig-syms=data/lang_test/phones/disambig.int --batch-size=750 exp-kaldi-lang/tri4b/tree exp-kaldi-lang/tri4b/1.mdl data/lang_test/L.fst "ark:sym2int.pl --map-oov 4 -f 2- data/lang_test/words.txt < data/train/split12/10/text |" "ark:|gzip -c >exp-kaldi-lang/tri4b/fsts.10.gz" 
+# Started at Thu Jul 27 15:35:35 BST 2017
+#
+compile-train-graphs --read-disambig-syms=data/lang_test/phones/disambig.int --batch-size=750 exp-kaldi-lang/tri4b/tree exp-kaldi-lang/tri4b/1.mdl data/lang_test/L.fst 'ark:sym2int.pl --map-oov 4 -f 2- data/lang_test/words.txt < data/train/split12/10/text |' 'ark:|gzip -c >exp-kaldi-lang/tri4b/fsts.10.gz' 
+sym2int.pl: replacing *LICHTBLAU* with 4
+sym2int.pl: replacing *CHANNELL* with 4
+sym2int.pl: replacing *INDICT* with 4
+sym2int.pl: replacing *DREXEL* with 4
+sym2int.pl: replacing *DREXEL* with 4
+sym2int.pl: replacing *DREXEL* with 4
+sym2int.pl: replacing *REGULATORY* with 4
+sym2int.pl: replacing JOB(S)- with 4
+sym2int.pl: replacing ARRANGEMEN(T)- with 4
+sym2int.pl: replacing *PRINCETON* with 4
+sym2int.pl: replacing WOR(KED)- with 4
+sym2int.pl: replacing NIGH(T)- with 4
+** Replaced 12 instances of OOVs with 4
+LOG (compile-train-graphs:main():compile-train-graphs.cc:145) compile-train-graphs: succeeded for 874 graphs, failed for 0
+# Accounting: time=17 threads=1
+# Ended (code 0) at Thu Jul 27 15:35:52 BST 2017, elapsed time 17 seconds

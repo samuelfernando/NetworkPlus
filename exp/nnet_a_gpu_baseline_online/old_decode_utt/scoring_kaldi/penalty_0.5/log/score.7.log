@@ -1,0 +1,5 @@
+# cat exp/nnet2_online/nnet_a_gpu_baseline_online/decode_utt/scoring_kaldi/penalty_0.5/7.txt | compute-wer --text --mode=present ark:exp/nnet2_online/nnet_a_gpu_baseline_online/decode_utt/scoring_kaldi/test_filt.txt ark,p:- >& exp/nnet2_online/nnet_a_gpu_baseline_online/decode_utt/wer_7_0.5 
+# Started at Fri Jul 28 18:04:00 BST 2017
+#
+# Accounting: time=0 threads=1
+# Ended (code 0) at Fri Jul 28 18:04:00 BST 2017, elapsed time 0 seconds

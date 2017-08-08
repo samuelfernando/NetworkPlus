@@ -1,0 +1,195 @@
+# gmm-latgen-faster --max-active=2000 --beam=10.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp-kaldi-lang/tri4b/graph/words.txt exp-kaldi-lang/tri4b/final.alimdl exp-kaldi-lang/tri4b/graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/head_eval_test/split12/9/utt2spk scp:data/head_eval_test/split12/9/cmvn.scp scp:data/head_eval_test/split12/9/feats.scp ark:- | splice-feats --left-context=3 --right-context=3 ark:- ark:- | transform-feats exp-kaldi-lang/tri4b/final.mat ark:- ark:- |" "ark:|gzip -c > exp-kaldi-lang/tri4b/decode.si/lat.9.gz" 
+# Started at Thu Jul 27 15:39:35 BST 2017
+#
+gmm-latgen-faster --max-active=2000 --beam=10.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp-kaldi-lang/tri4b/graph/words.txt exp-kaldi-lang/tri4b/final.alimdl exp-kaldi-lang/tri4b/graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/head_eval_test/split12/9/utt2spk scp:data/head_eval_test/split12/9/cmvn.scp scp:data/head_eval_test/split12/9/feats.scp ark:- | splice-feats --left-context=3 --right-context=3 ark:- ark:- | transform-feats exp-kaldi-lang/tri4b/final.mat ark:- ark:- |' 'ark:|gzip -c > exp-kaldi-lang/tri4b/decode.si/lat.9.gz' 
+transform-feats exp-kaldi-lang/tri4b/final.mat ark:- ark:- 
+splice-feats --left-context=3 --right-context=3 ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/head_eval_test/split12/9/utt2spk scp:data/head_eval_test/split12/9/cmvn.scp scp:data/head_eval_test/split12/9/feats.scp ark:- 
+c3ra0101-head 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3ra0101-head is -1.8585 over 298 frames.
+c3ra0102-head SHE HAD YOUR DARK SUIT IN GREASY WASH WATER ALL YEAR 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3ra0102-head is -3.85742 over 545 frames.
+c3ra0103-head DON'T ASK ME TO CARRY AN OILY RAG LIKE THAT 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3ra0103-head is -3.80192 over 420 frames.
+c3ra0104-head FEMALE PRODUCES A LITTER OF TWO TO FOUR YOUNG IN NOVEMBER AND DECEMBER 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3ra0104-head is -3.90655 over 564 frames.
+c3ra0105-head NUMEROUS WORKS OF ART ARE BASED ON THE STORY OF THE SACRIFICE OF ISAAC 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3ra0105-head is -4.09907 over 557 frames.
+c3ra0106-head THEIR SOLUTION REQUIRES DEVELOPMENT OF THE HUMAN CAPACITY FOR SOCIAL INTEREST 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3ra0106-head is -4.22152 over 595 frames.
+c3ra0107-head HIS MOST SIGNIFICANT SCIENTIFIC PUBLICATIONS WERE STUDIES OF BIRDS AND ANIMALS 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3ra0107-head is -4.0428 over 651 frames.
+c3ra0108-head IN RECENT YEARS SHE HAS PRIMARILY APPEARED IN TELEVISION FILMS SUCH AS LITTLE GLORIA 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3ra0108-head is -3.76131 over 701 frames.
+c3ra0109-head PROCESS BY WHICH THE LENS FOCUSES ON EXTERNAL OBJECTS IS CALLED ACCOMMODATION 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3ra0109-head is -3.90212 over 657 frames.
+c3ra010a-head TWO NARROW GAUGE RAILROADS FROM CHINA ENTER THE CITY FROM THE NORTHEAST AND NORTHWEST 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3ra010a-head is -3.86386 over 682 frames.
+c3ra010b-head SOME MAPS USE BANDS OF COLOR TO INDICATE DIFFERENT INTERVALS OF VALUE 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3ra010b-head is -3.93125 over 582 frames.
+c3ra010c-head ORIGINS OR CAUSES OF SPONTANEOUS MUTATION ARE NOT YET COMPLETELY CLEAR 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3ra010c-head is -3.98619 over 645 frames.
+c3ra010d-head THE ON USUALLY HIGH LEVELS OF RADIATION WERE DETECTED IN MANY EUROPEAN COUNTRIES 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3ra010d-head is -4.02854 over 589 frames.
+c3ra010e-head THE BOTH PETROLEUM AND NATURAL GAS DEPOSITS ARE SCATTERED THROUGH EASTERN OHIO 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3ra010e-head is -4.04098 over 607 frames.
+c3ra010f-head FOR THE FIRST TIME IN YEARS THE REPUBLICANS ALSO CAPTURED BOTH HOUSES OF CONGRESS 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3ra010f-head is -4.09152 over 614 frames.
+c3ra010g-head THE SOUTH CAROLINA EDUCATIONAL RADIO NETWORK HAS WON NATIONAL BROADCASTING AWARDS 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3ra010g-head is -3.89738 over 670 frames.
+c3ra010h-head A TANKER IS A SHIP DESIGNED TO CARRY LARGE VOLUMES OF OIL OR OTHER LIQUID CARGO 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3ra010h-head is -4.10347 over 651 frames.
+c3ra010i-head ENORMOUS AMOUNTS OF CARBON DIOXIDE IN THE ATMOSPHERE CAUSE THIS HIGH PRESSURE 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3ra010i-head is -3.78773 over 614 frames.
+c3rc0201-head WASHINGTON PAWS COMPANY RAISED ITS QUARTERLY DIVIDEND TO THIRTY NINE CENTS A SHARE FROM THIRTY TWO CENTS PAYABLE FEBRUARY TWELFTH TO STOCK OF RECORD JANUARY TWENTY NINTH 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc0201-head is -4.33442 over 1207 frames.
+c3rc0202-head A SPOKESMAN FOR THE WASHINGTON PUBLISHING CONCERN SAID THE TWENTY TWO PERCENT INCREASE REFLECTS EARNINGS GROWTH 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc0202-head is -4.17653 over 795 frames.
+c3rc0203-head THE DIVIDEND HAS BEEN RAISED ANNUALLY FOR THE PAST TWELVE YEARS INCLUDING A BOOST OF ABOUT FOURTEEN PERCENT A YEAR AGO 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc0203-head is -3.96736 over 826 frames.
+c3rc0204-head THE JOB PAYS THREE HUNDRED RAND A MONTH WHEN HE WAS P. AND BEING HE MOVED UP WHAT EVERY WEEK 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc0204-head is -4.05061 over 757 frames.
+c3rc0205-head FORD TO SCRIMP HE TRIED GIVING UPS MORGAN BUT COULDN'T SWEETHEART TIME ON HIS GASOLINE CONSUMPTION INSTEAD 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc0205-head is -4.24822 over 832 frames.
+c3rc0206-head NINE HE USES HIS CAR ON THE TO GET TO WORK 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc0206-head is -3.74727 over 420 frames.
+c3rc0207-head INSTITUTIONAL INVESTORS FUELED THE RISE BY SHIFTING ASSETS TO THE FUNDS IN RESPONSE TO DECLINING RATES AVAILABLE ON SHORT TERM SECURITIES IN THE MARKET 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc0207-head is -4.33667 over 1089 frames.
+c3rc0208-head ALSO ALL INDIVIDUAL INVESTORS' CONCERN THE OFFER FOR WILL TOTALLY IN FOR NATURAL MARKETS MAY HAVE CONTRIBUTED TO THE INCREASE SHE SAID 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc0208-head is -4.23991 over 964 frames.
+c3rc0209-head LAST FRIDAY THE DOLLAR AGENTS INDUSTRIAL AVERAGE POSTED ITS THIRD BIGGEST POINT DECLINE EVER 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc0209-head is -4.18471 over 745 frames.
+c3rc020a-head THE UNDERLYING ANNUAL RATE OF INCREASE IN AVERAGE EARNINGS ROSE TO EAT AND ONE QUARTER PERCENT TO NOVEMBER FROM OCTOBER'S IT PERCENT THE DEPARTMENT OF TRADE AND INDUSTRY SAID 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc020a-head is -4.41021 over 1182 frames.
+c3rc020b-head MORE SELLERS EXPECTED THE RATE TO HOLD STEADY A EIGHT PERCENT 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc020b-head is -4.33308 over 507 frames.
+c3rc020c-head A WERE PRESSURE ON WAGES STRIPPED CORPORATE AND NOVEMBER FAULT SEVERAL MONTHS OF STABILITY 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc020c-head is -4.32406 over 614 frames.
+c3rc020d-head THE NEW SEVEN THOUSAND FOOT TRADING AREA COST ABOUT TWENTY MILLION DOLLARS ON WALL COMMONLY AT A BOOK FOUR HUNDRED PEOPLE 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc020d-head is -4.42827 over 807 frames.
+c3rc020e-head IT MARKS THE FRESH MAJOR EXPANSION OF THE BIG BOARD'S EQUITIES TRADING FLOOR SINCE NINETEEN SIXTY NINE 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc020e-head is -4.45422 over 726 frames.
+c3rc020f-head THE TRADING FLOOR OR MORE TOTAL THIRTY SEVEN THOUSAND SQUARE FEET 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc020f-head is -4.27412 over 476 frames.
+c3rc020g-head THE LAWS FARE AS A ONE HUNDRED FORTY NINE DOLLARS EACH WAY BETWEEN LONDON AND NEW YORK ON ONE HUNDRED NINETY NINE DOLLARS EACH WAY BETWEEN PARIS AND NEW YORK 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc020g-head is -4.41403 over 989 frames.
+c3rc020h-head THE FERROUS REQUIRE MIDWEEK TROUBLE RUN TRIP TICKET PURCHASE WITH RESERVATIONS PLACED AT LEAST WARM WEAKENED ADVANCE 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc020h-head is -4.51497 over 751 frames.
+c3rc020i-head TRY FOR MUST BE BETWEEN FOR BRIEF RUSHED A MARCH SEVENTEENTH 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc020i-head is -4.06855 over 470 frames.
+c3rc020j-head A FOUR DAY MINIMUM STAY IS REQUIRED AND SEATS ARE LIMITED 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc020j-head is -4.0004 over 482 frames.
+c3rc020k-head MR. HARRIS'S DEPARTURE ISN'T EXPECTED TO BE THE ONLY ONE AT SALOMON FOR THE NEXT COUPLE WEEKS 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc020k-head is -4.34883 over 732 frames.
+c3rc020l-head INVESTMENT BANKERS AND TRADERS GENERALLY DECIDE TO SWITCH FIRMS AFTER RECEIVING THEIR YEAR END BONUSES 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc020l-head is -4.29275 over 751 frames.
+c3rc020m-head AND SOME CASES FIRMS ENCOURAGE SENIOR PEOPLE TO LEAVE BUT PAYING THEM ARE MUCH MORE A BONUS THAN WOULD BE EXPECTED 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc020m-head is -4.16527 over 795 frames.
+c3rc020n-head ANALYSTS VALUE UNITED CABLE A BETWEEN THIRTY SEVEN DOLLARS AND FORTY FIVE DOLLARS A SHARE 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc020n-head is -4.26394 over 651 frames.
+c3rc020o-head A NEW YORK STOCK EXCHANGE COMPOSITE TRADING YESTERDAY IN ADDICT SHE BALK ROSE TWENTY THREE POINT EIGHT SEVEN FIVE DOLLARS UP ONE DOLLAR AND SEVENTY FIVE CENTS 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc020o-head is -4.37265 over 1045 frames.
+c3rc020p-head IN NATIONAL FOR THE CONTRA TRADING UNITED ARTISTS CLOSED AT TWENTY FOUR DOLLARS AND FIFTY CENTS UNCHANGED 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc020p-head is -4.29687 over 782 frames.
+c3rc020q-head WHAT WAS FEELS RULES TWO POINT FOUR PERCENT IN DECEMBER AFTER DECLINING ZERO POINT SEVEN PERCENT IN NOVEMBER 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc020q-head is -4.25668 over 832 frames.
+c3rc020r-head FOR AN AGE ISSUERS FELL ZERO POINT FIVE PERCENT AFTER RISING ZERO POINT TWO PERCENT 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc020r-head is -4.28869 over 595 frames.
+c3rc020s-head SEALED OF BUILDING MATERIALS INCREASED ONE POINT THREE PERCENT AFTER A ONE POINT ONE PERCENT DROP 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc020s-head is -4.42876 over 632 frames.
+c3rc020t-head ALL FOR ALL SEALED SAID EUROPE OR GOODS INTENDED TO LAST THREE RICH A MORE CLIMBED ONE POINT SEVEN PERCENT AFTER A ZERO POINT TWO PERCENT RISE IN NOVEMBER 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc020t-head is -4.41919 over 951 frames.
+c3rc020u-head STEELS OF NONDURABLE GOODS EDGED UP ZERO POINT ONE PERCENT IN EACH MONTH 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc020u-head is -4.31627 over 526 frames.
+c3rc020v-head WAS THAN THIS CATEGORY STEELS A GENERAL MERCHANDISE STORES INCLUDING DEPARTMENT STORE AS FELL ZERO POINT FOUR PERCENT IN DECEMBER AFTER BEING ON CHANGED AND NOVEMBER 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc020v-head is -4.39169 over 1114 frames.
+c3rc020w-head STEELS AT APPAREL STORES RULES CEREAL POINT THREE PERCENT AFTER A ONE POINT SIX PERCENT DROP 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc020w-head is -4.19201 over 676 frames.
+c3rc0301-head A RUNNING TO FAILED TO GIVE THE ONE MILLION DOLLARS OR FIFTY FOUR CENTS A SHARE FROM ONE HUNDRED THIRTY TWO MILLION DOLLARS OR NINETY CENTS A SHARE 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc0301-head is -4.2372 over 951 frames.
+c3rc0302-head QUARTERLY PRETAX PROFIT FOR THE SECURITIES TRADING FIRM FELL FORTY THREE PERCENT TO ONE HUNDRED TWENTY NINE MILLION DOLLARS FROM TWO HUNDRED TWENTY SEVEN MILLION DOLLARS 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc0302-head is -4.33744 over 1157 frames.
+c3rc0303-head SEOUL AND LAST MONTH SELLER EXPECTED TO PUSHED FOR TWO PERCENT DECLINE IN FOURTH QUARTER PROFIT 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc0303-head is -4.24409 over 689 frames.
+c3rc0304-head THE QUESTION OF HOW MANY DAYS IN ADVANCE A TICKET HAS TO BE PURCHASED IS A CRITICAL ISSUE FOR THE AIRLINE INDUSTRY 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc0304-head is -4.34653 over 732 frames.
+c3rc0305-head THE MORE RESTRICTIVE THE ADVANCE PURCHASE REQUIREMENT THE LESS DAMAGING A CHEAP FARE AS FOR THE AIRLINE 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc0305-head is -4.16198 over 689 frames.
+c3rc0306-head THAT'S MAINLY BECAUSE THE NUMBER TRIPLE WHO CAN TAKE ADVANTAGE OF THE FARE PARTICULARLY BUSINESS TRAVELERS IS LIMITED 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc0306-head is -4.29902 over 776 frames.
+c3rc0307-head ONE REASON THE MAXSAVER HAS ATTRACTED SO MUCH ATTENTION IS A THAT'S TO DAY ADVANCE PURCHASE REQUIREMENT MAKES A POSSIBLE FOR VIRTUALLY ANYBODY TO USE THE FOR 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc0307-head is -4.4301 over 982 frames.
+c3rc0308-head BUDGET PROBABLY WOULD BE A MOOT ISSUE HE SAID BECAUSE THE A SEALED CAN'T PULL THE PRICE UP TO ANY LEVEL 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc0308-head is -4.24381 over 664 frames.
+c3rc0309-head THE MARKET HOUSE TO DO THAT 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc0309-head is -4.1143 over 239 frames.
+c3rc030a-head UNDER A SEALED HAS NEVER IGNORED THE MARKET PRICE PREVAILING WILL IT SETS THE QUARTER PRICE RANGE 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc030a-head is -4.48268 over 689 frames.
+c3rc030b-head IF THEY WANT TO LAW THEMSELVES A FEW NOTCHES FINE ANSWERS MS. BALUKAS 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc030b-head is -4.12453 over 720 frames.
+c3rc030c-head THE QUALITY OF MEN'S PLAY IS FAR SUPERIOR 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc030c-head is -4.05328 over 420 frames.
+c3rc030d-head AND TRYING TO REALIZE MY OWN POTENTIAL AS A PLAYER NOT JUST AS A WOMAN PLAYER 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc030d-head is -4.04494 over 601 frames.
+c3rc030e-head I'M NOT A TWO YEAR TO DRILL THE AMOUNT 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc030e-head is -3.70729 over 345 frames.
+c3rc030f-head NIGHT FREE OF INTEREST AND PENSION OBLIGATIONS DALLAS BASED L. T. V. IS SITTING ON ALMOST ONE BILLION DOLLARS IN CASH 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc030f-head is -4.20058 over 851 frames.
+c3rc030g-head THE COMPANY HAS SLASHED THIRTY WILL PRESENT OF THAT STEEL CAPACITY AND SHARPLY CUT STEELMAKING COSTS AT A TIME OF THE DOMESTIC STEEL OUTLOOK IS IMPROVING 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc030g-head is -4.51087 over 926 frames.
+c3rc030h-head A THAT HOUSE A TENTATIVE AGREEMENT WITH THE UNITED STEELWORKERS THAT PRACTICALLY ELIMINATES THE THREAT OF A STRIKE 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc030h-head is -4.30883 over 701 frames.
+c3rc030i-head BUT ANALYSTS WHO HAVE FORM BEEN CALLED TOWARD ERICSSON SAID THE REPORT WAS THE LATEST AND A STRING OF DISAPPOINTMENTS FROM THE GROUP 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc030i-head is -4.26493 over 845 frames.
+c3rc030j-head THIS IS BY NO MEANS POSITIVE SAID TIM YOUNGMAN A SCANDINAVIAN SPECIALIST AT SAVORY MILLN LONDON BROKERAGE 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc030j-head is -4.11291 over 926 frames.
+c3rc030k-head HE SAID THE REPORT WILL CAUSE HIM TO DOLLAR GROUP WHOSE FAMILIAR EARNINGS FORECAST FOR THE GROUP 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc030k-head is -4.18517 over 726 frames.
+c3rc030l-head WILL BE SPORTS OPERATES THIRTY AT STORES AND FLORIDA NORTH CAROLINA TENNESSEE AND OTHER BOMBER 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc030l-head is -4.19768 over 820 frames.
+c3rc030m-head WILL BE SPORTING GOODS HAS SEVEN STORAGE IN GEORGIA 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc030m-head is -4.17129 over 464 frames.
+c3rc030n-head THE TWO HAD ESTIMATED NINETEEN EIGHTY SEVEN SALES OF ABOUT FIFTY EIGHT MILLION DOLLARS 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc030n-head is -4.21509 over 601 frames.
+c3rc030o-head EVEN SCIENTISTS ADMITTED THAT RESEARCH INITIALLY SUFFERED FROM OTHER SCIENTISTS' TENDENCY TO AVOID TOPICS INVOLVING SEX 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc030o-head is -4.38619 over 845 frames.
+c3rc030p-head HEALTH OFFICIALS LOST TIME ON BUSH TUMBLING SPREAD OF THE DISEASE BECAUSE THEY DELAYED TALKING WITH MEMBERS OF HIGH RISK GROUPS 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc030p-head is -4.32486 over 814 frames.
+c3rc030q-head THE THIS FEEL EUROPE TO CONSULT THE EFFECT OF GRIP IS CHARACTERISTIC OF THE PATERNALISTIC TRADITIONS IN MEDICINE MS. PENNY NOTES 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc030q-head is -4.21286 over 926 frames.
+c3rc030r-head MR. JOHNSON ADDED IN A STATEMENT THAT WILL FOR THE PAST FIVE YEARS G. M. HAS UNDERGONE TREMENDOUS CHANGE AND UNDERTAKEN A NUMBER OF EXTRA ORDINARY TRANSACTIONS 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc030r-head is -4.28433 over 1176 frames.
+c3rc030s-head AND LARGE THAT THEY HANDLED OPPORTUNITY TO CONTRIBUTE TO THE PROCESS 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc030s-head is -4.31394 over 526 frames.
+c3rc030t-head HE CONCLUDED THAT HE WILL BUILD ON THE VALUABLE EXPERIENCES AND INSIGHTS THAT I HAVE BEEN DURING MY YEARS WITH GENERAL MORTARS 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc030t-head is -4.15342 over 826 frames.
+c3rc030u-head BUT SOME METEOROLOGISTS DO TO POSITIONS AND THE MARKET RAISING THE POSSIBLE T. THAT THEY MIGHT TRADE AHEAD OF THEIR FORECASTS 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc030u-head is -4.179 over 876 frames.
+c3rc030v-head A LAST YEAR SOME OF THE RENT BOARD ADDING SOME MARKETS OUT OF NATIONAL WEATHER SERVICE FORECASTS BEFORE OTHERS 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc030v-head is -4.19898 over 770 frames.
+c3rc030w-head NO MIGHT HAVE BEEN SOME PEOPLE WHO MID MONEY ON THIS SAID A WEATHER SERVICE SPOKESMAN 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc030w-head is -3.82582 over 657 frames.
+c3rc030x-head TO PREVENT ANY ON DRUG HONDA DEALINGS THE AGENCY BEGAN RELEASING THE DATA AFTER THE FOREIGN FUTURES MARKETS CLOSED 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc030x-head is -4.34243 over 901 frames.
+c3rc030y-head INHALING THE RIGHT SCENT ALSO MAKES WORKERS MORE PRODUCTIVE RESEARCHERS BELIEVE 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc030y-head is -4.41313 over 570 frames.
+c3rc030z-head TAX CYCLE CONSUMERS TO RECENTLY TRACKED A GROUP OF THE DEAL TROUBLE OPERATORS INTO POWER 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc030z-head is -4.26646 over 701 frames.
+c3rc0310-head OF THE SOOTHING LEMON FRAGRANCE WAFTING THROUGH THEIR OFFICE FOR A MONTH THE WORK RETIRE EAT DROPPED AND HALF 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc0310-head is -4.2086 over 739 frames.
+LOG (apply-cmvn:main():apply-cmvn.cc:146) Applied cepstral mean normalization to 90 utterances, errors on 0
+c3rc0311-head THAT'S BECAUSE THE CALMING FRAGRANCE HELPED TO MITIGATE A HIGH TENSION ENVIRONMENT THE RESEARCHERS THEORIZE 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc0311-head is -4.14605 over 795 frames.
+c3rc0312-head NEARLY EVERYONE AGREED THE FED SHOULD EASE AND THE FED SAYS AS HART'S ONE SLOWLY JUNE ONCE IN EARLY JULY ON WANTS AND THE JULY 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc0312-head is -3.86495 over 1101 frames.
+c3rc0313-head IN EACH CASE THE CENTRAL BANK MEANT THAT ALL OF THE FUNDS RATE TO FALL BY A QUARTER OF A BRISK AND BEACH POINT 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc0313-head is -4.41124 over 739 frames.
+LOG (transform-feats:main():transform-feats.cc:158) Overall average [pseudo-]logdet is -94.5186 over 65865 frames.
+LOG (transform-feats:main():transform-feats.cc:161) Applied transform to 90 utterances; 0 had errors.
+c3rc0314-head THE MONEY SUPPLY ACE BROUGHT ABOUT WOODEN JUNE BUT THIS RESULTED PARTLY FROM TAXPAYERS REBUILDING BANK DEPOSITS DEPLETED BY THE UNEXPECTEDLY HIGH TAX PAYMENTS IN APRIL 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance c3rc0314-head is -4.41637 over 1026 frames.
+LOG (gmm-latgen-faster:main():gmm-latgen-faster.cc:176) Time taken 92.2646s: real-time factor assuming 100 frames/sec is 0.140081
+LOG (gmm-latgen-faster:main():gmm-latgen-faster.cc:179) Done 90 utterances, failed for 0
+LOG (gmm-latgen-faster:main():gmm-latgen-faster.cc:181) Overall log-likelihood per frame is -4.20151 over 65865 frames.
+# Accounting: time=93 threads=1
+# Ended (code 0) at Thu Jul 27 15:41:08 BST 2017, elapsed time 93 seconds

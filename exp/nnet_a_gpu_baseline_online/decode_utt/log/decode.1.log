@@ -1,0 +1,9 @@
+# online2-wav-nnet2-latgen-faster --online=true --do-endpointing=false --config=exp/nnet_a_gpu_baseline_online/conf/online_nnet2_decoding.conf --max-active=7000 --beam=15.0 --lattice-beam=6.0 --acoustic-scale=0.1 --word-symbol-table=exp/tri4b/graph/words.txt exp/nnet_a_gpu_baseline_online/final.mdl exp/tri4b/graph/HCLG.fst ark:exp/nnet_a_gpu_baseline_online/decode_utt/per_utt/utt2spk.1 "ark,s,cs:wav-copy scp,p:data/head_eval_test/split8utt/1/wav.scp ark:- |" "ark:|gzip -c > exp/nnet_a_gpu_baseline_online/decode_utt/lat.1.gz" 
+# Started at Tue Aug  8 11:00:38 BST 2017
+#
+online2-wav-nnet2-latgen-faster --online=true --do-endpointing=false --config=exp/nnet_a_gpu_baseline_online/conf/online_nnet2_decoding.conf --max-active=7000 --beam=15.0 --lattice-beam=6.0 --acoustic-scale=0.1 --word-symbol-table=exp/tri4b/graph/words.txt exp/nnet_a_gpu_baseline_online/final.mdl exp/tri4b/graph/HCLG.fst ark:exp/nnet_a_gpu_baseline_online/decode_utt/per_utt/utt2spk.1 'ark,s,cs:wav-copy scp,p:data/head_eval_test/split8utt/1/wav.scp ark:- |' 'ark:|gzip -c > exp/nnet_a_gpu_baseline_online/decode_utt/lat.1.gz' 
+wav-copy scp,p:data/head_eval_test/split8utt/1/wav.scp ark:- 
+c3ya0101-head 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3ya0101-head
+c3ya0102-head SHE HAD YOUR DARK SUIT IN GREASY WASH WATER ALL YEAR 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:273) Decoded utterance c3ya0102-head

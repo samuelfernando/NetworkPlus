@@ -1,0 +1,19 @@
+# gmm-est --write-occs=exp-kaldi-lang/tri4b/14.occs --mix-up=35996 exp-kaldi-lang/tri4b/13.mdl "gmm-sum-accs - exp-kaldi-lang/tri4b/13.*.acc |" exp-kaldi-lang/tri4b/14.mdl 
+# Started at Thu Jul 27 15:37:29 BST 2017
+#
+gmm-est --write-occs=exp-kaldi-lang/tri4b/14.occs --mix-up=35996 exp-kaldi-lang/tri4b/13.mdl 'gmm-sum-accs - exp-kaldi-lang/tri4b/13.*.acc |' exp-kaldi-lang/tri4b/14.mdl 
+gmm-sum-accs - exp-kaldi-lang/tri4b/13.1.acc exp-kaldi-lang/tri4b/13.10.acc exp-kaldi-lang/tri4b/13.11.acc exp-kaldi-lang/tri4b/13.12.acc exp-kaldi-lang/tri4b/13.2.acc exp-kaldi-lang/tri4b/13.3.acc exp-kaldi-lang/tri4b/13.4.acc exp-kaldi-lang/tri4b/13.5.acc exp-kaldi-lang/tri4b/13.6.acc exp-kaldi-lang/tri4b/13.7.acc exp-kaldi-lang/tri4b/13.8.acc exp-kaldi-lang/tri4b/13.9.acc 
+LOG (gmm-sum-accs:main():gmm-sum-accs.cc:63) Summed 12 stats, total count 6.81436e+06, avg like/frame -44.8919
+LOG (gmm-sum-accs:main():gmm-sum-accs.cc:66) Total count of stats is 6.81436e+06
+LOG (gmm-sum-accs:main():gmm-sum-accs.cc:67) Written stats to -
+LOG (gmm-est:MleUpdate():transition-model.cc:393) TransitionModel::Update, objf change is -1.09336e-12 per frame over 6.81436e+06 frames. 
+LOG (gmm-est:MleUpdate():transition-model.cc:396) 390 probabilities floored, 6340 out of 13515 transition-states skipped due to insuffient data (it is normal to have some skipped.)
+LOG (gmm-est:main():gmm-est.cc:102) Transition model update: Overall -1.09336e-12 log-like improvement per frame over 6.81436e+06 frames.
+LOG (gmm-est:MleAmDiagGmmUpdate():mle-am-diag-gmm.cc:225) 0 variance elements floored in 0 Gaussians, out of 34663
+LOG (gmm-est:MleAmDiagGmmUpdate():mle-am-diag-gmm.cc:229) Removed 0 Gaussians due to counts < --min-gaussian-occupancy=10 and --remove-low-count-gaussians=true
+LOG (gmm-est:main():gmm-est.cc:113) GMM update: Overall 0.0276849 objective function improvement per frame over 6.81436e+06 frames
+LOG (gmm-est:main():gmm-est.cc:116) GMM update: Overall avg like per frame = -44.8919 over 6.81436e+06 frames.
+LOG (gmm-est:SplitByCount():am-diag-gmm.cc:116) Split 3484 states with target = 35996, power = 0.2, perturb_factor = 0.01 and min_count = 20, split #Gauss from 34663 to 35996
+LOG (gmm-est:main():gmm-est.cc:146) Written model to exp-kaldi-lang/tri4b/14.mdl
+# Accounting: time=1 threads=1
+# Ended (code 0) at Thu Jul 27 15:37:30 BST 2017, elapsed time 1 seconds
