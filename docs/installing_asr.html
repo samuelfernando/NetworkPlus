@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- Template by quackit.com -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Installing the ASR</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="w3data.js"></script>		
+			
+	
+	</head>
+	
+	<body>
+		<div id="wrapper">
+		
+			<main>
+				<div id="content">
+					<div class="innertube">
+						<h1>Installing the ASR</h1>
+
+The ASR setup for Network Plus is built on top of the Kaldi toolkit. You need to have a Linux OS, I've tested everything on Ubuntu 16.04 but it should work on other kinds of Linux as well. For best results it will help if you have at least a basic knowledge of Linux shell scripting commands, particularly BASH scripting. You should also look at the Kaldi documentation for more details, this document will only give a brief overview to get started.
+
+<h2> Installing Kaldi</h2>
+
+<p>First you need to download and install <a href="http://kaldi-asr.org/doc/install.html">Kaldi</a>. Run <pre> sudo apt install git </pre> to get Git. Go to your home folder (or some other suitable location) and do this to checkout the Kaldi folder:</p>
+
+<pre>git clone https://github.com/kaldi-asr/kaldi.git kaldi --origin upstream</pre>
+
+<p>You should also ensure that you are using the correct version for Network Plus so do this:</p>
+
+<pre>cd kaldi; git checkout 288890c22dda4f789b9c3c1bd1298991d52a0939 </pre>
+<!--p> Soon to be: d41af2280a4313f5e802976c404777cbec2c2e6b </p-->
+<p> Enter into the kaldi folder (<code>cd kaldi</code>) and read the INSTALL file which will give you instructions on what to do. Kaldi will take quite a long time to install, if possible use multiple processors during the install as suggested (e.g. <code>make -j 4</code>). Make a note of where Kaldi is installed (i.e. <code>/home/&lt;user&gt;/kaldi</code>).</p>
+
+<h2>Checkout the Network plus code</h2>
+
+<p>Now you can check out the code for the Network Plus ASR. This contains acoustic and language models based on the Wall Street Journal British English corpus which can be used as a baseline ASR system.</p>
+
+<p>Go to your home folder and check out the code:</p>
+
+<pre>git clone https://github.com/samuelfernando/NetworkPlus.git</pre>
+
+<p> Now enter the folder <code>cd NetworkPlus</code> and edit <code>path.sh</code>, put in the correct value for KALDI_ROOT, the directory where Kaldi was installed. 
+
+<p>As a test, you should now be able to decode (i.e. run the speech recognition over) the provided WSJ test set. You will first need to make changes to a file to ensure the paths are correct. The file you need to correct is <code>data/head_eval_test/wav.scp</code> which points to the audio files to be decoded. Look at the first few lines of this file. You will see lines like this:
+</p>
+
+<pre>c30a0101-head /home/samf/kaldi/tools/sph2pipe_v2.5/sph2pipe -f wav /home/samf/NetworkPlus/data/si_et_1/c30/c30a0101.wv1 |</pre>
+
+<p>The first part of the line is the utterance id <code>c30a0101-head</code>. The rest is a pointer to a wav file, in this case actually a compressed file pre-processed through sph2pipe to generate a wav file. You will need to correct the paths to point to the correct Kaldi location, as well as the correct location for the data e.g.:</p>
+
+<pre>c30a0101-head /home/robg/kaldi/tools/sph2pipe_v2.5/sph2pipe -f wav /home/robg/NetworkPlus/data/si_et_1/c30/c30a0101.wv1</pre>
+
+<p>assuming you've installed in your home folder "/home/robg". I suggest you use find/replace in a text editor, or alternatively you can do it on the command line using sed (Google find/replace with sed for instructions).<p>
+
+<p>Once that is done, you should be able to test the decode script by running <code>./decode-nnet.sh</code>. It will take a few minutes to decode the 298 utterances in the test data. </p>
+
+<p>If successful you will see the results in <code>exp/nnet_a_gpu_baseline_online/decode_utt/scoring_kaldi/best_wer</code> - the WER (word error rate) should be quite low, I got 3.91%. </p>
+
+
+			</div>
+				</div>
+			</main>
+			
+			<nav id="nav">
+				<div w3-include-html="links.html" class="innertube">
+				</div>
+			</nav>
+	<script>
+w3IncludeHTML();
+</script>
+		</div>
+	</body>
+</html>
