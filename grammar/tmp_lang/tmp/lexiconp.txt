@@ -1,0 +1,102 @@
+A 1.0 ah_S
+A 1.0 ax_S
+A 1.0 ey_S
+ALLOY 1.0 ae_B l_I oy_E
+ALLOY 1.0 ax_B l_I oy_E
+AM 1.0 ae_B m_E
+ARE 1.0 aa_S
+ARE 1.0 aa_B r_E
+BATCH 1.0 b_B ae_I ch_E
+C 1.0 S_B IY_E
+C. 1.0 s_B iy_E
+CARBON 1.0 k_B aa_I b_I ax_I n_E
+DASH 1.0 d_B ae_I sh_E
+DO 1.0 d_B uw_E
+EIGHT 1.0 ey_B t_E
+EIGHTEEN 1.0 ey_B t_I iy_I n_E
+EIGHTY 1.0 ey_B t_I iy_E
+ELEVEN 1.0 ih_B l_I eh_I v_I n_E
+ENTER 1.0 eh_B n_I t_I ax_E
+ENTER 1.0 eh_B n_I t_I ax_I r_E
+FIFTEEN 1.0 f_B ih_I f_I t_I iy_I n_E
+FIFTY 1.0 f_B ih_I f_I t_I iy_E
+FIVE 1.0 f_B ay_I v_E
+FOR 1.0 f_B ao_E
+FOR 1.0 f_B ao_I r_E
+FOR 1.0 f_B ax_E
+FOR 1.0 f_B ax_I r_E
+FOR 1.0 f_B er_E
+FORTY 1.0 f_B ao_I t_I iy_E
+FOUR 1.0 f_B ao_E
+FOUR 1.0 f_B ao_I r_E
+FOURTEEN 1.0 f_B ao_I t_I iy_I n_E
+G. 1.0 jh_B iy_E
+GROSS 1.0 g_B r_I ow_I s_E
+HEY 1.0 hh_B ey_E
+HUNDRED 1.0 hh_B ah_I n_I d_I r_I ax_I d_E
+I 1.0 ay_S
+IS 1.0 ih_B z_E
+J. 1.0 jh_B ey_E
+LAST 1.0 l_B aa_I s_I t_E
+LAST 1.0 l_B ae_I s_I t_E
+LIMIT 1.0 l_B ih_I m_I ih_I t_E
+LOCATED 1.0 l_B ow_I k_I ey_I t_I ih_I d_E
+N 1.0 EH_B N_E
+N. 1.0 eh_B n_E
+NEED 1.0 n_B iy_I d_E
+NETT 1.0 n_B eh_I t_E
+NEW 1.0 n_B y_I uw_E
+NINE 1.0 n_B ay_I n_E
+NINETEEN 1.0 n_B ay_I n_I t_I iy_I n_E
+NINETY 1.0 n_B ay_I n_I t_I iy_E
+NUMBER 1.0 n_B ah_I m_I b_I ax_E
+NUMBER 1.0 n_B ah_I m_I b_I ax_I r_E
+OH 1.0 ow_S
+ONE 1.0 w_B ah_I n_E
+PACKAGING 1.0 p_B ae_I k_I ih_I jh_I ih_I ng_E
+PROCESSING 1.0 p_B r_I ax_I s_I eh_I s_I ih_I ng_E
+PROCESSING 1.0 p_B r_I ow_I s_I eh_I s_I ih_I ng_E
+R. 1.0 aa_S
+R. 1.0 aa_B r_E
+RECORD 1.0 r_B eh_I k_I ao_I d_E
+RECORD 1.0 r_B ih_I k_I ao_I d_E
+SAMPLES 1.0 s_B aa_I m_I p_I l_I z_E
+SEVEN 1.0 s_B eh_I v_I n_E
+SEVENTEEN 1.0 s_B eh_I v_I n_I t_I iy_I n_E
+SEVENTY 1.0 s_B eh_I v_I n_I t_I iy_E
+SIX 1.0 s_B ih_I k_I s_E
+SIXTEEN 1.0 s_B ih_I k_I s_I t_I iy_I n_E
+SIXTY 1.0 s_B ih_I k_I s_I t_I iy_E
+SLASH 1.0 s_B l_I ae_I sh_E
+SULPHUR 1.0 s_B ah_I l_I f_I ax_E
+SULPHUR 1.0 s_B ah_I l_I f_I ax_I r_E
+SYSTEM 1.0 s_B ih_I s_I t_I ax_I m_E
+TARE 1.0 t_B ea_E
+TARE 1.0 t_B ea_I r_E
+TEN 1.0 t_B eh_I n_E
+THE 1.0 dh_B ax_E
+THE 1.0 dh_B iy_E
+THERE 1.0 dh_B ea_E
+THERE 1.0 dh_B ea_I r_E
+THIRTEEN 1.0 th_B er_I t_I iy_I n_E
+THIRTY 1.0 th_B er_I t_I iy_E
+THIS 1.0 dh_B ih_I s_E
+THOUSAND 1.0 th_B aw_I z_I n_I d_E
+THREE 1.0 th_B r_I iy_E
+TO 1.0 t_B ax_E
+TO 1.0 t_B uw_E
+TOTAL 1.0 t_B ow_I t_I l_E
+TWELVE 1.0 t_B w_I eh_I l_I v_E
+TWENTY 1.0 t_B w_I eh_I n_I t_I iy_E
+TWO 1.0 t_B uw_E
+W. 1.0 D_B AH_I B_I AH_I L_I Y_I UW_E
+WANT 1.0 w_B oh_I n_I t_E
+WEIGHT 1.0 w_B ey_I t_E
+WHAT 1.0 w_B oh_I t_E
+WHERE 1.0 w_B ea_E
+WHERE 1.0 w_B ea_I r_E
+YOU 1.0 y_B ax_E
+YOU 1.0 y_B uw_E
+ZERO 1.0 z_B ia_I r_I ow_E
+!SIL 1.0 SIL_S
+!NOISE 1.0 NOISE_S

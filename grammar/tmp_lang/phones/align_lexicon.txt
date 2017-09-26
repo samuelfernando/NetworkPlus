@@ -1,0 +1,103 @@
+!NOISE !NOISE NOISE_S
+!SIL !SIL SIL_S
+<eps> <eps> SIL
+A A ah_S
+A A ax_S
+A A ey_S
+ALLOY ALLOY ae_B l_I oy_E
+ALLOY ALLOY ax_B l_I oy_E
+AM AM ae_B m_E
+ARE ARE aa_B r_E
+ARE ARE aa_S
+BATCH BATCH b_B ae_I ch_E
+C C S_B IY_E
+C. C. s_B iy_E
+CARBON CARBON k_B aa_I b_I ax_I n_E
+DASH DASH d_B ae_I sh_E
+DO DO d_B uw_E
+EIGHT EIGHT ey_B t_E
+EIGHTEEN EIGHTEEN ey_B t_I iy_I n_E
+EIGHTY EIGHTY ey_B t_I iy_E
+ELEVEN ELEVEN ih_B l_I eh_I v_I n_E
+ENTER ENTER eh_B n_I t_I ax_E
+ENTER ENTER eh_B n_I t_I ax_I r_E
+FIFTEEN FIFTEEN f_B ih_I f_I t_I iy_I n_E
+FIFTY FIFTY f_B ih_I f_I t_I iy_E
+FIVE FIVE f_B ay_I v_E
+FOR FOR f_B ao_E
+FOR FOR f_B ao_I r_E
+FOR FOR f_B ax_E
+FOR FOR f_B ax_I r_E
+FOR FOR f_B er_E
+FORTY FORTY f_B ao_I t_I iy_E
+FOUR FOUR f_B ao_E
+FOUR FOUR f_B ao_I r_E
+FOURTEEN FOURTEEN f_B ao_I t_I iy_I n_E
+G. G. jh_B iy_E
+GROSS GROSS g_B r_I ow_I s_E
+HEY HEY hh_B ey_E
+HUNDRED HUNDRED hh_B ah_I n_I d_I r_I ax_I d_E
+I I ay_S
+IS IS ih_B z_E
+J. J. jh_B ey_E
+LAST LAST l_B aa_I s_I t_E
+LAST LAST l_B ae_I s_I t_E
+LIMIT LIMIT l_B ih_I m_I ih_I t_E
+LOCATED LOCATED l_B ow_I k_I ey_I t_I ih_I d_E
+N N EH_B N_E
+N. N. eh_B n_E
+NEED NEED n_B iy_I d_E
+NETT NETT n_B eh_I t_E
+NEW NEW n_B y_I uw_E
+NINE NINE n_B ay_I n_E
+NINETEEN NINETEEN n_B ay_I n_I t_I iy_I n_E
+NINETY NINETY n_B ay_I n_I t_I iy_E
+NUMBER NUMBER n_B ah_I m_I b_I ax_E
+NUMBER NUMBER n_B ah_I m_I b_I ax_I r_E
+OH OH ow_S
+ONE ONE w_B ah_I n_E
+PACKAGING PACKAGING p_B ae_I k_I ih_I jh_I ih_I ng_E
+PROCESSING PROCESSING p_B r_I ax_I s_I eh_I s_I ih_I ng_E
+PROCESSING PROCESSING p_B r_I ow_I s_I eh_I s_I ih_I ng_E
+R. R. aa_B r_E
+R. R. aa_S
+RECORD RECORD r_B eh_I k_I ao_I d_E
+RECORD RECORD r_B ih_I k_I ao_I d_E
+SAMPLES SAMPLES s_B aa_I m_I p_I l_I z_E
+SEVEN SEVEN s_B eh_I v_I n_E
+SEVENTEEN SEVENTEEN s_B eh_I v_I n_I t_I iy_I n_E
+SEVENTY SEVENTY s_B eh_I v_I n_I t_I iy_E
+SIX SIX s_B ih_I k_I s_E
+SIXTEEN SIXTEEN s_B ih_I k_I s_I t_I iy_I n_E
+SIXTY SIXTY s_B ih_I k_I s_I t_I iy_E
+SLASH SLASH s_B l_I ae_I sh_E
+SULPHUR SULPHUR s_B ah_I l_I f_I ax_E
+SULPHUR SULPHUR s_B ah_I l_I f_I ax_I r_E
+SYSTEM SYSTEM s_B ih_I s_I t_I ax_I m_E
+TARE TARE t_B ea_E
+TARE TARE t_B ea_I r_E
+TEN TEN t_B eh_I n_E
+THE THE dh_B ax_E
+THE THE dh_B iy_E
+THERE THERE dh_B ea_E
+THERE THERE dh_B ea_I r_E
+THIRTEEN THIRTEEN th_B er_I t_I iy_I n_E
+THIRTY THIRTY th_B er_I t_I iy_E
+THIS THIS dh_B ih_I s_E
+THOUSAND THOUSAND th_B aw_I z_I n_I d_E
+THREE THREE th_B r_I iy_E
+TO TO t_B ax_E
+TO TO t_B uw_E
+TOTAL TOTAL t_B ow_I t_I l_E
+TWELVE TWELVE t_B w_I eh_I l_I v_E
+TWENTY TWENTY t_B w_I eh_I n_I t_I iy_E
+TWO TWO t_B uw_E
+W. W. D_B AH_I B_I AH_I L_I Y_I UW_E
+WANT WANT w_B oh_I n_I t_E
+WEIGHT WEIGHT w_B ey_I t_E
+WHAT WHAT w_B oh_I t_E
+WHERE WHERE w_B ea_E
+WHERE WHERE w_B ea_I r_E
+YOU YOU y_B ax_E
+YOU YOU y_B uw_E
+ZERO ZERO z_B ia_I r_I ow_E

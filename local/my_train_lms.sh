@@ -4,7 +4,7 @@
 # To be run from one directory above this script.
 
 
-text=data/train/text_noid
+text=data/elg_utica/all/text
 lexicon=data/local/dict/lexicon.txt 
 
 for f in "$text" "$lexicon"; do
@@ -68,7 +68,7 @@ cat $cleantext | awk -v wmap=$dir/word_map 'BEGIN{while((getline<wmap)>0)map[$1]
   { for(n=2;n<=NF;n++) { printf map[$n]; if(n<NF){ printf " "; } else { print ""; }}}' | gzip -c >$dir/train.gz \
    || exit 1;
 
-train_lm.sh --arpa --lmtype 3gram-mincount $dir || exit 1;
+local/train_lm.sh --arpa --lmtype 3gram-mincount $dir || exit 1;
 
 # Perplexity over 88307.000000 words (excluding 691.000000 OOVs) is 71.241332
 

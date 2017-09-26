@@ -1,0 +1,7 @@
+#JSGF V1.0;
+grammar phrase;
+public <phrase> = !SIL 
+| START
+| NEXT
+| REPEAT
+| GO BACK;

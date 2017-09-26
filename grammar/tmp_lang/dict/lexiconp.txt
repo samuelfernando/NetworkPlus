@@ -1,0 +1,102 @@
+A	1.0	ah
+A	1.0	ax
+A	1.0	ey
+ALLOY	1.0	ae l oy
+ALLOY	1.0	ax l oy
+AM	1.0	ae m
+ARE	1.0	aa
+ARE	1.0	aa r
+BATCH	1.0	b ae ch
+C	1.0	S IY
+C.	1.0	s iy
+CARBON	1.0	k aa b ax n
+DASH	1.0	d ae sh
+DO	1.0	d uw
+EIGHT	1.0	ey t
+EIGHTEEN	1.0	ey t iy n
+EIGHTY	1.0	ey t iy
+ELEVEN	1.0	ih l eh v n
+ENTER	1.0	eh n t ax
+ENTER	1.0	eh n t ax r
+FIFTEEN	1.0	f ih f t iy n
+FIFTY	1.0	f ih f t iy
+FIVE	1.0	f ay v
+FOR	1.0	f ao
+FOR	1.0	f ao r
+FOR	1.0	f ax
+FOR	1.0	f ax r
+FOR	1.0	f er
+FORTY	1.0	f ao t iy
+FOUR	1.0	f ao
+FOUR	1.0	f ao r
+FOURTEEN	1.0	f ao t iy n
+G.	1.0	jh iy
+GROSS	1.0	g r ow s
+HEY	1.0	hh ey
+HUNDRED	1.0	hh ah n d r ax d
+I	1.0	ay
+IS	1.0	ih z
+J.	1.0	jh ey
+LAST	1.0	l aa s t
+LAST	1.0	l ae s t
+LIMIT	1.0	l ih m ih t
+LOCATED	1.0	l ow k ey t ih d
+N	1.0	EH N
+N.	1.0	eh n
+NEED	1.0	n iy d
+NETT	1.0	n eh t
+NEW	1.0	n y uw
+NINE	1.0	n ay n
+NINETEEN	1.0	n ay n t iy n
+NINETY	1.0	n ay n t iy
+NUMBER	1.0	n ah m b ax
+NUMBER	1.0	n ah m b ax r
+OH	1.0	ow
+ONE	1.0	w ah n
+PACKAGING	1.0	p ae k ih jh ih ng
+PROCESSING	1.0	p r ax s eh s ih ng
+PROCESSING	1.0	p r ow s eh s ih ng
+R.	1.0	aa
+R.	1.0	aa r
+RECORD	1.0	r eh k ao d
+RECORD	1.0	r ih k ao d
+SAMPLES	1.0	s aa m p l z
+SEVEN	1.0	s eh v n
+SEVENTEEN	1.0	s eh v n t iy n
+SEVENTY	1.0	s eh v n t iy
+SIX	1.0	s ih k s
+SIXTEEN	1.0	s ih k s t iy n
+SIXTY	1.0	s ih k s t iy
+SLASH	1.0	s l ae sh
+SULPHUR	1.0	s ah l f ax
+SULPHUR	1.0	s ah l f ax r
+SYSTEM	1.0	s ih s t ax m
+TARE	1.0	t ea
+TARE	1.0	t ea r
+TEN	1.0	t eh n
+THE	1.0	dh ax
+THE	1.0	dh iy
+THERE	1.0	dh ea
+THERE	1.0	dh ea r
+THIRTEEN	1.0	th er t iy n
+THIRTY	1.0	th er t iy
+THIS	1.0	dh ih s
+THOUSAND	1.0	th aw z n d
+THREE	1.0	th r iy
+TO	1.0	t ax
+TO	1.0	t uw
+TOTAL	1.0	t ow t l
+TWELVE	1.0	t w eh l v
+TWENTY	1.0	t w eh n t iy
+TWO	1.0	t uw
+W.	1.0	D AH B AH L Y UW
+WANT	1.0	w oh n t
+WEIGHT	1.0	w ey t
+WHAT	1.0	w oh t
+WHERE	1.0	w ea
+WHERE	1.0	w ea r
+YOU	1.0	y ax
+YOU	1.0	y uw
+ZERO	1.0	z ia r ow
+!SIL	1.0	SIL
+!NOISE	1.0	NOISE

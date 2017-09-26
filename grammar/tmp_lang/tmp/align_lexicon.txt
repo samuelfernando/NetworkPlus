@@ -1,0 +1,103 @@
+A ah_S
+A ax_S
+A ey_S
+ALLOY ae_B l_I oy_E
+ALLOY ax_B l_I oy_E
+AM ae_B m_E
+ARE aa_S
+ARE aa_B r_E
+BATCH b_B ae_I ch_E
+C S_B IY_E
+C. s_B iy_E
+CARBON k_B aa_I b_I ax_I n_E
+DASH d_B ae_I sh_E
+DO d_B uw_E
+EIGHT ey_B t_E
+EIGHTEEN ey_B t_I iy_I n_E
+EIGHTY ey_B t_I iy_E
+ELEVEN ih_B l_I eh_I v_I n_E
+ENTER eh_B n_I t_I ax_E
+ENTER eh_B n_I t_I ax_I r_E
+FIFTEEN f_B ih_I f_I t_I iy_I n_E
+FIFTY f_B ih_I f_I t_I iy_E
+FIVE f_B ay_I v_E
+FOR f_B ao_E
+FOR f_B ao_I r_E
+FOR f_B ax_E
+FOR f_B ax_I r_E
+FOR f_B er_E
+FORTY f_B ao_I t_I iy_E
+FOUR f_B ao_E
+FOUR f_B ao_I r_E
+FOURTEEN f_B ao_I t_I iy_I n_E
+G. jh_B iy_E
+GROSS g_B r_I ow_I s_E
+HEY hh_B ey_E
+HUNDRED hh_B ah_I n_I d_I r_I ax_I d_E
+I ay_S
+IS ih_B z_E
+J. jh_B ey_E
+LAST l_B aa_I s_I t_E
+LAST l_B ae_I s_I t_E
+LIMIT l_B ih_I m_I ih_I t_E
+LOCATED l_B ow_I k_I ey_I t_I ih_I d_E
+N EH_B N_E
+N. eh_B n_E
+NEED n_B iy_I d_E
+NETT n_B eh_I t_E
+NEW n_B y_I uw_E
+NINE n_B ay_I n_E
+NINETEEN n_B ay_I n_I t_I iy_I n_E
+NINETY n_B ay_I n_I t_I iy_E
+NUMBER n_B ah_I m_I b_I ax_E
+NUMBER n_B ah_I m_I b_I ax_I r_E
+OH ow_S
+ONE w_B ah_I n_E
+PACKAGING p_B ae_I k_I ih_I jh_I ih_I ng_E
+PROCESSING p_B r_I ax_I s_I eh_I s_I ih_I ng_E
+PROCESSING p_B r_I ow_I s_I eh_I s_I ih_I ng_E
+R. aa_S
+R. aa_B r_E
+RECORD r_B eh_I k_I ao_I d_E
+RECORD r_B ih_I k_I ao_I d_E
+SAMPLES s_B aa_I m_I p_I l_I z_E
+SEVEN s_B eh_I v_I n_E
+SEVENTEEN s_B eh_I v_I n_I t_I iy_I n_E
+SEVENTY s_B eh_I v_I n_I t_I iy_E
+SIX s_B ih_I k_I s_E
+SIXTEEN s_B ih_I k_I s_I t_I iy_I n_E
+SIXTY s_B ih_I k_I s_I t_I iy_E
+SLASH s_B l_I ae_I sh_E
+SULPHUR s_B ah_I l_I f_I ax_E
+SULPHUR s_B ah_I l_I f_I ax_I r_E
+SYSTEM s_B ih_I s_I t_I ax_I m_E
+TARE t_B ea_E
+TARE t_B ea_I r_E
+TEN t_B eh_I n_E
+THE dh_B ax_E
+THE dh_B iy_E
+THERE dh_B ea_E
+THERE dh_B ea_I r_E
+THIRTEEN th_B er_I t_I iy_I n_E
+THIRTY th_B er_I t_I iy_E
+THIS dh_B ih_I s_E
+THOUSAND th_B aw_I z_I n_I d_E
+THREE th_B r_I iy_E
+TO t_B ax_E
+TO t_B uw_E
+TOTAL t_B ow_I t_I l_E
+TWELVE t_B w_I eh_I l_I v_E
+TWENTY t_B w_I eh_I n_I t_I iy_E
+TWO t_B uw_E
+W. D_B AH_I B_I AH_I L_I Y_I UW_E
+WANT w_B oh_I n_I t_E
+WEIGHT w_B ey_I t_E
+WHAT w_B oh_I t_E
+WHERE w_B ea_E
+WHERE w_B ea_I r_E
+YOU y_B ax_E
+YOU y_B uw_E
+ZERO z_B ia_I r_I ow_E
+!SIL SIL_S
+!NOISE NOISE_S
+<eps> SIL

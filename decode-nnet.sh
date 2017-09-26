@@ -16,17 +16,12 @@ exp=exp
 njobs=12
 decode_jobs=12
 
-# Now make MFCC features.
-# mfccdir should be some place with a largish disk where you
-# want to store MFCC features.
+
+dir=exp/nnet_a_gpu_baseline
+
+#utils/mkgraph.sh $lang exp/tri4b exp/tri4b/elg_graph
 
 
-# Note: the --boost-silence option should probably be omitted by default
-# for normal setups.  It doesn't always help. [it's to discourage non-silence
-# models from modeling silence.]
-
-#steps/align_fmllr.sh --nj $njobs --cmd "$train_cmd" \
-#  $train $lang $exp/tri4b $exp/tri4b_ali || exit 1;
-  
-#local/online/sam_run_nnet2_baseline.sh
-local/online/decode_nnet2_baseline.sh
+steps/online/nnet2/decode.sh --cmd "$decode_cmd" --nj 8 \
+        --per-utt true \
+        exp/tri4b/graph-elg-grammar data/elg_utica/all ${dir}_online/decode_elg_grammar || exit 1;
