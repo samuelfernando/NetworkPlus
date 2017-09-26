@@ -1,0 +1,12 @@
+emp1/loc1
+emp1/loc2
+emp1/loc3
+emp1/loc4
+emp2/loc1
+emp2/loc2
+emp2/loc3
+emp2/loc4
+emp3/loc1
+emp3/loc2
+emp3/loc3
+emp3/loc4
