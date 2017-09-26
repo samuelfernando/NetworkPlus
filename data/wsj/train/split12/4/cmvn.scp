@@ -1,0 +1,8 @@
+c0p /home/samuel/network_plus_asr/data/mfcc-train/cmvn_train.ark:5593
+c0q /home/samuel/network_plus_asr/data/mfcc-train/cmvn_train.ark:5836
+c0r /home/samuel/network_plus_asr/data/mfcc-train/cmvn_train.ark:6079
+c0s /home/samuel/network_plus_asr/data/mfcc-train/cmvn_train.ark:6322
+c0t /home/samuel/network_plus_asr/data/mfcc-train/cmvn_train.ark:6565
+c0u /home/samuel/network_plus_asr/data/mfcc-train/cmvn_train.ark:6808
+c0v /home/samuel/network_plus_asr/data/mfcc-train/cmvn_train.ark:7051
+c0w /home/samuel/network_plus_asr/data/mfcc-train/cmvn_train.ark:7294
