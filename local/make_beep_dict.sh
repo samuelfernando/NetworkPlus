@@ -3,11 +3,11 @@
 # Copyright 2012 Vassil Panayotov
 # Apache 2.0
 
-text=data/train/text_noid
+text=data/elg_utica/all/text
 vocab=data/lang/vocab.txt
-beep_dict=/home/samuel/beep
+beep_dict=./beep
 dict_out=data/local/dict
-tools=/home/samuel/g2p_tools
+tools=.
 #tools=tools
 echo "=== Preparing the dictionary ..."
 
@@ -19,6 +19,10 @@ if [ ! -f $beep_dict/beep/beep-1.0 ]; then
   tar xvzf beep.tar.gz || exit 1
   
 fi
+
+awk 'BEGIN{FS=OFS=" "}{$1="";sub(" ","")}1' $text > ${text}_noid
+
+text=${text}_noid
 
 grep -o -E "[A-Za-z0-9'.]+" $text | sort -u -f > $vocab
 
